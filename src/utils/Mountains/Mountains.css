@@ -1,0 +1,13 @@
+.mtns {
+    position: absolute;
+    top: 271px;
+    width: 100%;
+    z-index: 1;
+}
+
+.mtns img {
+    position: absolute;
+    width: 100%;
+    height: 185px;
+    z-index: 1;
+}
