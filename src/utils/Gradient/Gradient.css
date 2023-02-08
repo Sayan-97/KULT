@@ -2,27 +2,30 @@
     position: absolute;
     transform: translate(-50%, 0);
     max-width: 725px;
-    width: 60%;
+    width: 55%;
     height: 583px;
     left: 50%;
-    top: 100px;
+    top: 70px;
+
     background: radial-gradient(50% 50% at 50% 50%, #00ADAE 0%, #4630D1 100%);
-    opacity: 0.6;
+    opacity: 0.5;
     filter: blur(137px);
     z-index: 2;
+    border-radius: 50%;
 }
 
 .gradient-logo {
     position: absolute;
     width: 547px;
     height: 464px;
-    left: -131px;
-    top: -216px;
+    left: -70px;
+    top: -266px;
 
     background: linear-gradient(180deg, #cf2ac0 0%, #ffd7fb 100%);
-    opacity: 0.4;
+    opacity: 0.25;
     filter: blur(137px);
     z-index: 2;
+    border-radius: 50%;
 }
 
 @media screen and (max-width: 800px) {

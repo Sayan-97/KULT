@@ -1,12 +1,16 @@
 import './App.css';
+import Home from './components/Home/Home';
+import IGO from './components/IGO/IGO';
+import KultOffers from './components/KultOffers/KultOffers';
 import Navbar from './components/Navbar/Navbar';
-import Header from './components/Header/Header';
 
 function App() {
   return (
     <>
       <Navbar />
-      <Header />
+      <Home />
+      <KultOffers />
+      <IGO />
     </>
   );
 }
