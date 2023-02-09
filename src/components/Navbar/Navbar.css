@@ -4,9 +4,10 @@ nav{
     height: 100%;
     margin: 0;
     padding: 0;
+    max-height: 100vh;
 
     background: rgba(42, 71, 161, 0.17);
-    overflow: auto;
+    overflow: hidden;
     backdrop-filter: blur(2px);
 
     z-index: 999;
