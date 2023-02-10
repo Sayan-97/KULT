@@ -49,7 +49,6 @@
 }
 
 .card__details{
-    /* background: black; */
     position: relative;
     width: 396px;
     height: 108px;
@@ -80,10 +79,7 @@
     height: 32px;
 
     background: linear-gradient(93.03deg, rgba(255, 255, 255, 0.16) 1.38%, rgba(255, 255, 255, 0.0672) 102.75%);
-    /* background-blend-mode: screen; */
     border-radius: 4px;
-    /* opacity: 0.5; */
-    /* background-color: rgba(255, 255, 255, 0); */
 }
 
 .card__countdown i,

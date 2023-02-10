@@ -1,7 +1,7 @@
 import React from 'react'
-import './Home.css'
+import './HomeHeader.css'
 
-const Home = () => {
+const HomeHeader = () => {
     return (
         <section className='section__home'>
             <button className='connect-btn'>Conect Wallet</button>
@@ -18,4 +18,4 @@ const Home = () => {
     )
 }
 
-export default Home
+export default HomeHeader

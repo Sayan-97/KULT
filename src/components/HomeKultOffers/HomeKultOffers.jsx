@@ -1,10 +1,10 @@
 import React from 'react'
-import './KultOffers.css'
+import './HomeKultOffers.css'
 import gamepedia from '../../images/gamepedia.png'
 import launchpad from '../../images/launchpad.png'
 import nftmarket from '../../images/nft_marketplace.png'
 
-const KultOffers = () => {
+const HomeKultOffers = () => {
     return (
         <section className='offer__section'>
             <h1>Kult Offers</h1>
@@ -42,4 +42,4 @@ const KultOffers = () => {
     )
 }
 
-export default KultOffers
+export default HomeKultOffers

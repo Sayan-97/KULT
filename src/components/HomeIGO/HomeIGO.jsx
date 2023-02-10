@@ -1,5 +1,5 @@
 import React from 'react'
-import './IGO.css'
+import './HomeIGO.css'
 import gameImage1 from '../../images/LOE.png'
 import gameImage2 from '../../images/game_pic2.jpg'
 import gameImage3 from '../../images/game_pic3.jfif'
@@ -7,7 +7,7 @@ import gameImage4 from '../../images/game_pic4.png'
 import gameImage5 from '../../images/game_pic5.png'
 import gameImage6 from '../../images/game_pic6.png'
 
-const IGO = () => {
+const HomeIGO = () => {
     return (
         <section className='IGO__section'>
 
@@ -100,4 +100,4 @@ const IGO = () => {
     )
 }
 
-export default IGO
+export default HomeIGO
