@@ -1,8 +1,8 @@
 import React from 'react'
-import HomeHeader from '../components/HomeHeader/HomeHeader'
-import HomeIGO from '../components/HomeIGO/HomeIGO'
-import HomeKultOffers from '../components/HomeKultOffers/HomeKultOffers'
-import HomeNFTMarketplace from '../components/HomeNFTMarketplace/HomeNFTMarketplace'
+
+import { Gradient } from '../utils'
+
+import { HomeHeader, HomeKultOffers, HomeIGO, HomeNFTMarketplace } from '../components/Home'
 
 const HomePage = () => {
     return (
@@ -11,6 +11,7 @@ const HomePage = () => {
             <HomeKultOffers />
             <HomeIGO />
             <HomeNFTMarketplace />
+            <Gradient />
         </>
     )
 }

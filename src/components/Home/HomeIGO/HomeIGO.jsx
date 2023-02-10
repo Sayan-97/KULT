@@ -1,11 +1,7 @@
 import React from 'react'
 import './HomeIGO.css'
-import gameImage1 from '../../images/LOE.png'
-import gameImage2 from '../../images/game_pic2.jpg'
-import gameImage3 from '../../images/game_pic3.jfif'
-import gameImage4 from '../../images/game_pic4.png'
-import gameImage5 from '../../images/game_pic5.png'
-import gameImage6 from '../../images/game_pic6.png'
+
+import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../../../images'
 
 const HomeIGO = () => {
     return (
@@ -17,7 +13,7 @@ const HomeIGO = () => {
             <div className="IGO__cardholder">
 
                 <div className='IGO__card'>
-                    <img src={gameImage1} alt="game-pic1" />
+                    <img src={GamePic1} alt="game-pic1" />
                     <div className="card__details">
                         <h3>The legends of Elysium</h3>
                         <div className="card__countdown">
@@ -30,7 +26,7 @@ const HomeIGO = () => {
                 </div>
 
                 <div className='IGO__card'>
-                    <img src={gameImage2} alt="game-pic1" />
+                    <img src={GamePic2} alt="game-pic1" />
                     <div className="card__details">
                         <h3>Chain of Alliance</h3>
                         <div className="card__countdown">
@@ -43,7 +39,7 @@ const HomeIGO = () => {
                 </div>
 
                 <div className='IGO__card'>
-                    <img src={gameImage3} alt="game-pic1" />
+                    <img src={GamePic3} alt="game-pic1" />
                     <div className="card__details">
                         <h3>Whisper of Soul</h3>
                         <div className="card__countdown">
@@ -56,7 +52,7 @@ const HomeIGO = () => {
                 </div>
 
                 <div className='IGO__card'>
-                    <img src={gameImage4} alt="game-pic1" />
+                    <img src={GamePic4} alt="game-pic1" />
                     <div className="card__details">
                         <h3>Rage Effect</h3>
                         <div className="card__countdown">
@@ -69,7 +65,7 @@ const HomeIGO = () => {
                 </div>
 
                 <div className='IGO__card'>
-                    <img src={gameImage5} alt="game-pic1" />
+                    <img src={GamePic5} alt="game-pic1" />
                     <div className="card__details">
                         <h3>Occupy Wallstreet</h3>
                         <div className="card__countdown">
@@ -82,7 +78,7 @@ const HomeIGO = () => {
                 </div>
 
                 <div className='IGO__card'>
-                    <img src={gameImage6} alt="game-pic1" />
+                    <img src={GamePic6} alt="game-pic1" />
                     <div className="card__details">
                         <h3>The legends of Elysium</h3>
                         <div className="card__countdown">

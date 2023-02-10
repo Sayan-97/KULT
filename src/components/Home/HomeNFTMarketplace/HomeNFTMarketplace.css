@@ -23,9 +23,7 @@
 }
 
 .nft__cardholder {
-    /* width: 100%; */
-    /* height: 100%; */
-    gap: 40px;
+    gap: 27px;
 
     margin-top: 76px;
 
@@ -89,7 +87,7 @@
     border: 2px solid white;
     margin-left: -0.6rem;
 
-    
+
 }
 
 .card__owner p {
@@ -126,6 +124,17 @@
     z-index: 9;
 }
 
-.price img{
+.price img {
     color: #fff;
+}
+
+.section__nftMarketplace button {
+    margin-top: 20px;
+
+    width: 173.07px;
+    height: 62.13px;
+
+    font-size: 17.75px;
+    font-weight: 700;
+    line-height: 26.63px;
 }

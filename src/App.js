@@ -1,9 +1,8 @@
 import './App.css';
-import Navbar from './components/Navbar/Navbar';
-import Mountains from './utils/Mountains/Mountains';
-import LinesBg from './utils/LinesBg/LinesBg'
-import Gradient from './utils/Gradient/Gradient';
-import HomePage from './pages/HomePage';
+
+import {Navbar, Mountains, LinesBg } from './utils';
+
+import { HomePage } from './pages';
 
 function App() {
   return (
@@ -11,7 +10,6 @@ function App() {
       <Navbar />
       <Mountains />
       <LinesBg />
-      <Gradient />
       <main>
         <HomePage />
       </main>

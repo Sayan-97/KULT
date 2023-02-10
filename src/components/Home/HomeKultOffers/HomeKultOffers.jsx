@@ -1,8 +1,7 @@
 import React from 'react'
 import './HomeKultOffers.css'
-import gamepedia from '../../images/gamepedia.png'
-import launchpad from '../../images/launchpad.png'
-import nftmarket from '../../images/nft_marketplace.png'
+
+import { NFTMarketLogo, GamepediaLogo, LaunchpadLogo } from '../../../images/index'
 
 const HomeKultOffers = () => {
     return (
@@ -11,7 +10,7 @@ const HomeKultOffers = () => {
             <div className="offer__container">
 
                 <div className="offer__card">
-                    <img src={gamepedia} alt="" />
+                    <img src={GamepediaLogo} alt="" />
                     <div className='card__gradient'></div>
                     <div className='card__content'>
                         <h3>Gamepedia</h3>
@@ -20,7 +19,7 @@ const HomeKultOffers = () => {
                 </div>
 
                 <div className="offer__card">
-                    <img src={launchpad} alt="" />
+                    <img src={LaunchpadLogo} alt="" />
                     <div className='card__gradient'></div>
                     <div className='card__content'>
                         <h3>Launchpad</h3>
@@ -29,7 +28,7 @@ const HomeKultOffers = () => {
                 </div>
 
                 <div className="offer__card">
-                    <img src={nftmarket} alt="" />
+                    <img src={NFTMarketLogo} alt="" />
                     <div className='card__gradient'></div>
                     <div className='card__content'>
                         <h3>NFT Marketplace</h3>
