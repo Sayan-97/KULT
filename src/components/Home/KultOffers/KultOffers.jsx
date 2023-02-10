@@ -1,9 +1,9 @@
 import React from 'react'
-import './HomeKultOffers.css'
+import './KultOffers.css'
 
 import { NFTMarketLogo, GamepediaLogo, LaunchpadLogo } from '../../../images/index'
 
-const HomeKultOffers = () => {
+const KultOffers = () => {
     return (
         <section className='offer__section'>
             <h1>Kult Offers</h1>
@@ -41,4 +41,4 @@ const HomeKultOffers = () => {
     )
 }
 
-export default HomeKultOffers
+export default KultOffers

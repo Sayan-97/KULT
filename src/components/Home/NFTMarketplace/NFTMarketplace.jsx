@@ -1,5 +1,5 @@
 import React from 'react'
-import './HomeNFTMarketplace.css'
+import './NFTMarketplace.css'
 
 import { NFTCardImg1, NFTCardImg2, NFTCardImg3, NFTCardImg4, NFTCardImg5, NFTCardImg6 } from '../../../images'
 
@@ -7,7 +7,7 @@ import { Person1, Person2, Person3 } from '../../../images'
 
 import { NFTLogo } from '../../../images'
 
-const HomeNFTMarketplace = () => {
+const NFTMarketplace = () => {
     return (
         <section className='section__nftMarketplace'>
             <h1>Explore NFT Marketplace</h1>
@@ -137,4 +137,4 @@ const HomeNFTMarketplace = () => {
     )
 }
 
-export default HomeNFTMarketplace
+export default NFTMarketplace

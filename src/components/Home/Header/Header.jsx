@@ -1,7 +1,7 @@
 import React from 'react'
-import './HomeHeader.css'
+import './Header.css'
 
-const HomeHeader = () => {
+const Header = () => {
     return (
         <section className='section__home'>
             <button className='connect-btn'>Conect Wallet</button>
@@ -18,4 +18,4 @@ const HomeHeader = () => {
     )
 }
 
-export default HomeHeader
+export default Header

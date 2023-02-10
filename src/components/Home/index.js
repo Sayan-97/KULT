@@ -1,4 +1,4 @@
-export { default as HomeHeader } from './HomeHeader/HomeHeader'
-export { default as HomeIGO } from './HomeIGO/HomeIGO'
-export { default as HomeKultOffers } from './HomeKultOffers/HomeKultOffers'
-export { default as HomeNFTMarketplace } from './HomeNFTMarketplace/HomeNFTMarketplace'
+export { default as Header } from './Header/Header'
+export { default as IGO } from './IGO/IGO'
+export { default as KultOffers } from './KultOffers/KultOffers'
+export { default as NFTMarketplace } from './NFTMarketplace/NFTMarketplace'

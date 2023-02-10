@@ -1,9 +1,9 @@
 import React from 'react'
-import './HomeIGO.css'
+import './IGO.css'
 
 import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../../../images'
 
-const HomeIGO = () => {
+const IGO = () => {
     return (
         <section className='IGO__section'>
 
@@ -96,4 +96,4 @@ const HomeIGO = () => {
     )
 }
 
-export default HomeIGO
+export default IGO
