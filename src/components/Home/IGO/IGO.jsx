@@ -8,7 +8,7 @@ import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../.
 const IGO = () => {
     return (
         <motion.section
-            initial={{ y: '20%', opacity: 0 }}
+            initial={{ y: '20', opacity: 0 }}
             whileInView={{
                 y: 0,
                 opacity: 1

@@ -29,7 +29,18 @@
 }
 
 ::-webkit-scrollbar{
-    display: none;
+    width: 5px;
+    background: transparent;
+    
+}
+::-webkit-scrollbar-thumb{
+    background: #9070D6;
+    border-radius: 4px;
+}
+
+::selection{
+    color: black;
+    background-color: white;
 }
 
 body {

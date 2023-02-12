@@ -7,8 +7,7 @@ const Header = () => {
         <section className='section__home'>
             <button className='connect-btn'>Conect Wallet</button>
             <motion.div
-                initial={{ y: '20%', opacity: 0 }}
-                
+                initial={{y: 20, opacity: 0 }}                
                 whileInView={{
                     y: 0,
                     opacity: 1

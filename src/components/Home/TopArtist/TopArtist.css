@@ -1,9 +1,10 @@
 .artist__section {
+    margin-top: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .artist__section h1 {
@@ -14,7 +15,7 @@
 }
 
 .artist__section p {
-    width: 50%;
+    width: 70%;
 
     font-size: 20px;
     font-weight: 400;
@@ -41,6 +42,24 @@
     border-radius: 16px;
 }
 
+.artist{
+    width: 75px;
+    height: 75px;
+
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    bottom: 20%;
+    left: 35%;
+
+    border: 2px solid #fff;
+    border-radius: 50%;
+
+    z-index: 1;
+    object-fit: cover;
+}
+
 .artist__detail {
     position: absolute;
     width: 262px;
@@ -49,11 +68,18 @@
     backdrop-filter: blur(6.5px);
     border-radius: 0 0 16px 16px;
     padding: 10px;
-    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
 
     bottom: 0;
 }
 
 .artist__detail h3{
-    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
 }
+
