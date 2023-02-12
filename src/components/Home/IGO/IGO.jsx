@@ -1,11 +1,22 @@
 import React from 'react'
 import './IGO.css'
 
+import { motion } from 'framer-motion'
+
 import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../../../images'
 
 const IGO = () => {
     return (
-        <section className='IGO__section'>
+        <motion.section
+            initial={{ y: '20%', opacity: 0 }}
+            whileInView={{
+                y: 0,
+                opacity: 1
+            }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className='IGO__section'
+        >
 
             <h1>Upcoming IGO's</h1>
             <p className='IGO__desc'>Easy to join IGOs designed to bring ease for all users. Stay connected and subscribe to stay up-to-date with our IGOs and upcoming projects.</p>
@@ -89,10 +100,10 @@ const IGO = () => {
                         <div className="g_bottom"></div>
                     </div>
                 </div>
-                
+
             </div>
             <button>View More</button>
-        </section>
+        </motion.section>
     )
 }
 

@@ -1,11 +1,23 @@
 import React from 'react'
 import './KultOffers.css'
 
+import { motion } from 'framer-motion'
+
 import { NFTMarketLogo, GamepediaLogo, LaunchpadLogo } from '../../../images/index'
 
 const KultOffers = () => {
     return (
-        <section className='offer__section'>
+        <motion.section 
+            className='offer__section'
+
+            initial={{ y: '20%', opacity: 0 }}
+            whileInView={{
+                y: 0,
+                opacity: 1
+            }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+        >
             <h1>Kult Offers</h1>
             <div className="offer__container">
 
@@ -37,7 +49,7 @@ const KultOffers = () => {
                 </div>
 
             </div>
-        </section>
+        </motion.section>
     )
 }
 

@@ -7,9 +7,20 @@ import { Person1, Person2, Person3 } from '../../../images'
 
 import { NFTLogo } from '../../../images'
 
+import { motion } from 'framer-motion'
+
 const NFTMarketplace = () => {
     return (
-        <section className='section__nftMarketplace'>
+        <motion.section
+            initial={{ y: '20%', opacity: 0 }}
+            whileInView={{
+                y: 0,
+                opacity: 1
+            }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className='section__nftMarketplace'
+        >
             <h1>Explore NFT Marketplace</h1>
             <p className='desc'>Now launch your NFT Collections with just 3 Clicks. Connect, Create, & Publish!</p>
             <div className="nft__cardholder">
@@ -133,7 +144,7 @@ const NFTMarketplace = () => {
 
             </div>
             <button>View More</button>
-        </section>
+        </motion.section>
     )
 }
 

@@ -6,9 +6,15 @@ import gameLogo from '../../images/gamepedia-logo.svg'
 import nftLogo from '../../images/nft-logo.svg'
 import rocketLogo from '../../images/rocket-bold.png'
 
+import { motion } from 'framer-motion'
+
 const Navbar = () => {
     return (
-        <nav>
+        <motion.nav
+            initial = {{ x:'-100%', opacity: 0 }}
+            animate = {{ x: 0, opacity: 1 }}
+            transition = {{ duration: 0.8 }}
+        >
             <div className="nav__logo">
                 <img src={navLogo} alt="nav-logo"></img>
             </div>
@@ -18,7 +24,7 @@ const Navbar = () => {
                 <li className="nav__list"><img src={rocketLogo} alt="" /><a href="/">Launchpad</a></li>
                 <li className="nav__list"><img src={nftLogo} alt="" /><a href="/">NFT Market</a></li>
             </ul>
-        </nav>
+        </motion.nav>
     )
 }
 

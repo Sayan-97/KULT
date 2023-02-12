@@ -25,6 +25,16 @@ import NFTMarketLogo from './nft_marketplace.png'
 
 import NFTLogo from './nft-logo.svg'
 
+import artistImg1 from './artist1.png'
+import artistImg2 from './artist2.jpg'
+import artistImg3 from './artist3.png'
+import artistImg4 from './artist4.png'
+
+import artist1 from './artist-pic1.webp'
+import artist2 from './artist-pic2.webp'
+import artist3 from './artist-pic3.jpg'
+import artist4 from './artist-pic4.webp'
+
 export {
     GamePic1,
     GamePic2,
@@ -51,5 +61,15 @@ export {
     GamepediaLogo,
     LaunchpadLogo,
 
-    NFTLogo
+    NFTLogo,
+
+    artistImg1,
+    artistImg2,
+    artistImg3,
+    artistImg4,
+
+    artist1,
+    artist2,
+    artist3,
+    artist4
 }

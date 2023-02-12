@@ -2,7 +2,7 @@ import React from 'react'
 
 import { Gradient } from '../utils'
 
-import { Header, KultOffers, IGO, NFTMarketplace } from '../components/Home'
+import { Header, KultOffers, IGO, NFTMarketplace, TopArtist } from '../components/Home'
 
 const HomePage = () => {
     return (
@@ -11,6 +11,7 @@ const HomePage = () => {
             <KultOffers />
             <IGO />
             <NFTMarketplace />
+            <TopArtist />
             <Gradient />
         </>
     )

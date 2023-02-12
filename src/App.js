@@ -1,6 +1,6 @@
 import './App.css';
 
-import {Navbar, Mountains, LinesBg } from './utils';
+import { Navbar, Mountains, LinesBg } from './utils';
 
 import { HomePage } from './pages';
 
