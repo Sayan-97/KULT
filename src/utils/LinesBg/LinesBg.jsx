@@ -4,11 +4,9 @@ import Lines from '../../images/lines.png'
 
 const LinesBg = () => {
     return (
-        <>
-            <div className="lines-bg">
-                <img src={Lines} alt="lines"/>
-            </div>
-        </>
+        
+        <img className='lines__image' src={Lines} alt="lines" />
+        
     )
 }
 

@@ -1,10 +1,5 @@
-.artist__section {
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
+.artist__section{
+    gap: 40px;
 }
 
 .artist__section h1 {

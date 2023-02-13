@@ -1,14 +1,8 @@
-.lines-bg {
+.lines__image {
     position: absolute;
     width: 100%;
-    height: 742px;
-    left: 0;
-    top: 373px;
-    z-index: 0;
-}
+    height: 15%;
 
-.lines-bg img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    top: 7%;
+
 }

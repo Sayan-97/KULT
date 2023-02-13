@@ -14,7 +14,7 @@ const TopArtist = () => {
                 y: 0,
                 opacity: 1
             }}
-            viewport={{ once: true }}
+            // viewport={{ once: true }}
             transition={{ duration: 1 }}
             className='artist__section'
         >

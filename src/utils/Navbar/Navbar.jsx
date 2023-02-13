@@ -19,10 +19,10 @@ const Navbar = () => {
                 <img src={navLogo} alt="nav-logo"></img>
             </div>
             <ul className="nav__menu">
-                <li className="nav__list active"><img src={homeLogo} alt="" /><a href="/">Home</a></li>
-                <li className="nav__list"><img src={gameLogo} alt="" /><a href="/">Gamepedia</a></li>
-                <li className="nav__list"><img src={rocketLogo} alt="" /><a href="/">Launchpad</a></li>
-                <li className="nav__list"><img src={nftLogo} alt="" /><a href="/">NFT Market</a></li>
+                <a href="/"><li className="nav__list active"><img src={homeLogo} alt="" />Home</li></a>
+                <a href="/"><li className="nav__list"><img src={gameLogo} alt="" />Gamepedia</li></a>
+                <a href="/"><li className="nav__list"><img src={rocketLogo} alt="" />Launchpad</li></a>
+                <a href="/"><li className="nav__list"><img src={nftLogo} alt="" />NFT Market</li></a>
             </ul>
         </motion.nav>
     )

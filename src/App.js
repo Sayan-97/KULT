@@ -6,14 +6,14 @@ import { HomePage } from './pages';
 
 function App() {
   return (
-    <>
+    <div className='app'>
       <Navbar />
       <Mountains />
       <LinesBg />
       <main>
         <HomePage />
       </main>
-    </>
+    </div>
   );
 }
 

@@ -4,11 +4,9 @@ import Mountain from '../../images/mtns.png'
 
 const Mountains = () => {
     return (
-        <>
-            <div className="mtns">
-                <img src={Mountain} alt="mtns" />
-            </div>
-        </>
+
+        <img className='mtns__image' src={Mountain} alt="mtns" />
+        
     )
 }
 

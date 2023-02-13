@@ -17,7 +17,7 @@ const NFTMarketplace = () => {
                 y: 0,
                 opacity: 1
             }}
-            viewport={{ once: true }}
+            // viewport={{ once: true }}
             transition={{ duration: 1 }}
             className='section__nftMarketplace'
         >
