@@ -4,7 +4,7 @@ nav {
     justify-content: space-around;
     align-items: center;
 
-    width: 100vw;
+    width: 100%;
     height: 10%;
 
     padding: 4rem 0;
@@ -50,8 +50,10 @@ nav {
     background-image: url('../../images/Rectangle-navbar.png');
 }
 
-
-
+nav.scrolled{
+    background: rgba(63, 14, 174, 0.29);
+    backdrop-filter: blur(7.5px);
+}
 
 
 
