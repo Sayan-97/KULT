@@ -2,9 +2,20 @@ import React from 'react'
 import { JoinKultImg1, JoinKultImg2, JoinKultImg3, JoinKultImg4 } from '../../../images'
 import './JoinKult.css'
 
+import {motion} from 'framer-motion'
+
 const JoinKult = () => {
     return (
-        <section className='joinKult__section'>
+        <motion.section 
+            initial={{ y: '20', opacity: 0 }}
+            whileInView={{
+                y: 0,
+                opacity: 1
+            }}
+            // viewport={{ once: true }}
+            transition={{ duration: 1 }}
+            className='joinKult__section'
+        >
             <h1>How to Join Kult</h1>
             <p>Kult encourages users to read our comprehensive guide to enable themselves to launch their project with complete guidance and ease.</p>
             <div className="joinKult__steps">
@@ -37,7 +48,7 @@ const JoinKult = () => {
                     <span>Once you have completed all the steps, share your profile with others and encourage them to follow you!</span>
                 </div>
             </div>
-        </section>
+        </motion.section>
     )
 }
 

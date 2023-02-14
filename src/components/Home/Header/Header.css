@@ -1,8 +1,9 @@
 /* ===== Home ===== */
 .home__container{
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
 }
 
 .home__container h3 {
