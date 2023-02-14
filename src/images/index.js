@@ -35,6 +35,21 @@ import artist2 from './artist-pic2.webp'
 import artist3 from './artist-pic3.jpg'
 import artist4 from './artist-pic4.webp'
 
+import KultIGOImg1 from './kult-igo-1.png'
+import KultIGOImg2 from './kult-igo-2.png'
+import KultIGOImg3 from './kult-igo-3.png'
+import KultIGOImg4 from './kult-igo-4.png'
+import KultIGOImg5 from './kult-igo-5.png'
+import KultIGOImg6 from './kult-igo-6.png'
+import KultIGOImg7 from './kult-igo-7.png'
+import KultIGOImg8 from './kult-igo-8.png'
+import KultIGOImg9 from './kult-igo-9.png'
+
+import JoinKultImg1 from './purchase.png'
+import JoinKultImg2 from './launch.png'
+import JoinKultImg3 from './kyc.png'
+import JoinKultImg4 from './share.png'
+
 export {
     GamePic1,
     GamePic2,
@@ -71,5 +86,20 @@ export {
     artist1,
     artist2,
     artist3,
-    artist4
+    artist4,
+
+    KultIGOImg1,
+    KultIGOImg2,
+    KultIGOImg3,
+    KultIGOImg4,
+    KultIGOImg5,
+    KultIGOImg6,
+    KultIGOImg7,
+    KultIGOImg8,
+    KultIGOImg9,
+
+    JoinKultImg1,
+    JoinKultImg2,
+    JoinKultImg3,
+    JoinKultImg4
 }

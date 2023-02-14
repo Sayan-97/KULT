@@ -1,0 +1,162 @@
+.kultIGO__section h1 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 30%;
+    text-align: center;
+}
+
+.kultIGO__section p {
+    width: 60%;
+}
+
+.kultIGO__nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+}
+
+.kultIGO__item{
+    padding: .5rem 1rem;
+    border-radius: 6.66px;
+    text-align: center;
+    background: rgba(42, 71, 161, 0.25);
+}
+
+.active__list{
+    background: #5416e9;
+}
+
+.kultIGO__container {
+    display: grid;
+    gap: 3rem;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.kultIGO__card {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.kultIGO__card img {
+    width: 22.625rem;
+    height: 13.188rem;
+
+    display: block;
+    border-radius: 16px 16px 0 0;
+}
+
+.kultIGO__card-desc {
+    position: relative;
+    width: 22.625rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 1rem;
+    align-items: flex-start;
+    border-radius: 0 0 16px 16px;
+    overflow: hidden;
+}
+
+.kultIGO__card-desc h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.kultIGO__card-desc p {
+    color: rgba(164, 165, 173, 1);
+    width: 100%;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: start;
+}
+
+.kultIGO__card-desc p.card__amt {
+    text-align: end;
+}
+
+.kultIGO__list {
+    width: 100%;
+}
+
+.kultIGO__list li {
+    display: flex;
+    align-items: center;
+
+}
+
+.card__d {
+    flex: 1;
+    text-align: start;
+
+    color: rgba(164, 165, 173, 1);
+    font-size: .85rem;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.card__amt {
+    flex: 1;
+    text-align: end;
+
+    color: #fff;
+
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+
+
+.kultIGO__grad1 {
+    position: absolute;
+
+    width: 50%;
+    height: 50%;
+
+    top: -18%;
+    right: -18%;
+
+    background: #5416e9;
+    opacity: 0.8;
+    filter: blur(111.5px);
+}
+
+.kultIGO__grad2 {
+    position: absolute;
+
+    width: 50%;
+    height: 50%;
+
+    left: -18%;
+    bottom: -10%;
+
+    background: #5416e9;
+    opacity: 0.8;
+    filter: blur(111.5px);
+    z-index: -1;
+}
+
+.kultIGO__grad3 {
+    position: absolute;
+
+    width: 50%;
+    height: 50%;
+
+    right: -20%;
+    bottom: -10%;
+
+    background: #CF2AC0;
+    opacity: 0.9;
+    filter: blur(111.5px);
+    z-index: -1;
+}

@@ -17,12 +17,20 @@ const NFTMarketplace = () => {
                 y: 0,
                 opacity: 1
             }}
-            // viewport={{ once: true }}
             transition={{ duration: 1 }}
             className='section__nftMarketplace'
         >
+            <div className='gradient-3'></div>
+            <div className='gradient-4'></div>
+            <div className='gradient-5'></div>
             <h1>Explore NFT Marketplace</h1>
             <p className='desc'>Now launch your NFT Collections with just 3 Clicks. Connect, Create, & Publish!</p>
+            <ul className="nft__nav">
+                <li className='nft__list list-active'>Exclusive</li>
+                <li className='nft__list'>Random</li>
+                <li className='nft__list'>Sci-Fi</li>
+                <li className='nft__list'>Retrowave</li>
+            </ul>
             <div className="nft__cardholder">
 
                 <div className="nft__card">

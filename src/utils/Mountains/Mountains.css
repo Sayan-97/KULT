@@ -1,6 +1,10 @@
-.mtns__image {
+.mtns__img{
     position: absolute;
+
     width: 100%;
-    top: 5.1%;
+    height: auto;
+
+    top: 35%;
     z-index: 1;
 }
+

@@ -1,11 +1,11 @@
 import React from 'react'
-import './IGO.css'
+import './UpcomingIGO.css'
 
 import { motion } from 'framer-motion'
 
 import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../../../images'
 
-const IGO = () => {
+const UpcomingIGO = () => {
     return (
         <motion.section
             initial={{ y: '20', opacity: 0 }}
@@ -107,4 +107,4 @@ const IGO = () => {
     )
 }
 
-export default IGO
+export default UpcomingIGO

@@ -1,0 +1,65 @@
+.joinKult__section h1 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    width: 30%;
+    text-align: center;
+}
+
+.joinKult__section p{
+    width: 70%;
+}
+
+.joinKult__steps{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.joinKult__step{
+    position: relative;
+    width: 18rem;
+    height: 23rem;
+    padding: 20px;
+    background: #120F2F;
+    border-radius: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.joinKult__step img{
+    width: 60%;
+    z-index: 10;
+}
+
+.step__grad{
+    position: absolute;
+    width: 40%;
+    height: 30%;
+
+    top: 8%;
+
+    background: #98a1ff;
+    opacity: 0.4;
+    filter: blur(33px);
+}
+
+.joinKult__step h3{
+    margin-top: 5px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 1.875em;
+    font-weight: 600;
+    line-height: 36.9px;
+    text-align: center;
+}
+
+.joinKult__step span{
+    margin-top: 5px;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+}

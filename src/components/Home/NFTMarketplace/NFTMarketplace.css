@@ -6,7 +6,7 @@
 }
 
 .desc {
-    margin-top: 20px;
+    width: 40%;
 
     font-size: 20px;
     line-height: 30px;
@@ -14,14 +14,32 @@
     text-align: center;
 }
 
+.nft__nav {
+    width: 40%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nft__list {
+    background: rgba(42, 71, 161, 0.25);
+    padding: 5px 30px;
+    border-radius: 6.66px;
+
+    cursor: pointer;
+}
+
+.list-active {
+    background: #2A47A1;
+}
+
 .nft__cardholder {
     gap: 27px;
 
-    margin-top: 76px;
 
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
 }
 
 .nft__card {
@@ -130,4 +148,54 @@
     font-size: 17.75px;
     font-weight: 700;
     line-height: 26.63px;
+}
+
+.gradient-3 {
+    position: absolute;
+
+    width: 40%;
+    height: 40%;
+
+    top: 10%;
+    right: 4%;
+
+    border-radius: 50%;
+
+    background: #5416e9;
+    filter: blur(137px);
+    opacity: 0.4;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.gradient-4 {
+    position: absolute;
+
+    width: 40%;
+    height: 40%;
+
+    top: 60%;
+    left: 1%;
+
+    background: #CF2AC0;
+    filter: blur(137px);
+    opacity: 0.2;
+    z-index: -1;
+
+}
+
+.gradient-5 {
+    position: absolute;
+
+    width: 40%;
+    height: 40%;
+
+    top: 60%;
+    left: 1%;
+
+    background: #5416e9;
+    filter: blur(137px);
+    opacity: 0.1;
+    z-index: -1;
+
 }

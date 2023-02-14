@@ -1,5 +1,5 @@
-.offer__section {
-    margin-top: 9%;
+.offer__section{
+    margin-top: 6%;
 }
 
 .offer__section h1 {
@@ -30,17 +30,16 @@
 }
 
 .offer__card img {
-    top: 18%;
+    top: 25%;
     position: absolute;
-    max-width: 227px;
-    width: 100%;
+    width: 15%;
 
     z-index: 9;
 }
 
 .card__gradient {
     position: absolute;
-    top: 24%;
+    top: 28%;
     width: 143px;
     height: 143px;
     background: rgba(128, 90, 193, 0.76);
