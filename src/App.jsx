@@ -21,6 +21,7 @@ function App() {
           <Route path='/nftmarketplace' element={<MarketplacePage />} />
         </Routes>
       </main>
+      <Mountains />
     </BrowserRouter>
   );
 }

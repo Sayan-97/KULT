@@ -22,6 +22,7 @@ const Collection = () => {
             <div className="collections">
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -30,6 +31,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -38,6 +40,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -46,6 +49,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -54,6 +58,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -62,6 +67,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -70,6 +76,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -78,6 +85,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -86,6 +94,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -94,6 +103,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -102,6 +112,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>
@@ -110,6 +121,7 @@ const Collection = () => {
                 </div>
 
                 <div className="collection__profile">
+                    <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
                         <h3 className="pro__name">Robert Fox</h3>

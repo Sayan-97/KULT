@@ -3,7 +3,7 @@ import './OurTeam.css'
 
 import { motion } from 'framer-motion'
 
-import {artist1, artist2, artist3, artist4} from '../../../images'
+import { artist2, artist3, artist4} from '../../../images'
 
 
 const OurTeam = () => {
@@ -14,10 +14,11 @@ const OurTeam = () => {
         y: 0,
         opacity: 1
       }}
-      // viewport={{ once: true }}
       transition={{ duration: 1 }}
       className='ourTeam__section'
     >
+      <div className='ourTeam__grad1'></div>
+      <div className='ourTeam__grad2'></div>
       <h1>Our Team Member</h1>
       <p>Team at KULT believes in giving their utmost best to bring to the people the best product possible. Our hardworking team is always there to support and guide projects in the right direction.</p>
       <div className="team__members">

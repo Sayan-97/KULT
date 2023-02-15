@@ -55,17 +55,16 @@ body {
 
 }
 
-
 main {
-    position: relative;
     width: 100%;
     height: auto;
-    top: 20%;
+    padding-top: 9.5%;
 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 
 section {

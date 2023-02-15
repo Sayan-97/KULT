@@ -31,7 +31,6 @@ const Navbar = () => {
             setNavbarColor(false);
         }
 
-        // setLastScrollTop(currentScrollPos <= 0 ? 0 : currentScrollPos);
     };
 
     useEffect(() => {
@@ -91,10 +90,17 @@ const Navbar = () => {
             <div className="nav__buttons">
                 <motion.button
                     initial={{ background: "var(--btn-grad)" }}
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: 'spring', stiffness: 200 }}
                     className='nav__button'
                 >
                     Create</motion.button>
-                <button className='nav__button-secondary'>Log In</button>
+                <motion.button
+                    whileHover={{ scale: 1.02 }}
+                    whileTap={{ scale: 0.9 }}
+                    className='nav__button-secondary'
+                >Log In</motion.button>
             </div>
         </motion.nav>
     )

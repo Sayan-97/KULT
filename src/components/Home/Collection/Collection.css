@@ -18,10 +18,21 @@
 }
 
 .collection__profile{
+    position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     gap: 20px;
+}
+
+.profile__grad{
+    position: absolute;
+    left: -1%;
+    width: 40%;
+    height: 105%;
+    border-radius: 50%;
+    background: var(--btn-grad);
+    z-index: -1;
 }
 
 .collection__profile img{

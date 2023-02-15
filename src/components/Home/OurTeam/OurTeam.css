@@ -1,4 +1,8 @@
-.ourTeam__section h1{
+.ourTeam__section {
+    position: relative;
+}
+
+.ourTeam__section h1 {
     font-size: 50px;
     font-weight: 600;
     line-height: 61.5px;
@@ -6,56 +10,97 @@
     font-family: 'Clash Display', sans-serif;
 }
 
-.ourTeam__section p{
+.ourTeam__section p {
     width: 55%;
     text-align: center;
 }
 
-.team__members{
+.team__members {
     margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 80px;
 }
 
-.team__member{
+.team__member {
     display: flex;
     flex-direction: column;
     align-items: center;
     position: relative;
 }
 
-.pic__radius{
+.pic__radius {
     position: absolute;
     width: 6.5rem;
     height: 6.5rem;
     background: var(--btn-grad);
     border-radius: 50%;
-    top: -42%;
+    top: -30%;
 }
 
-.team__member img{
+.team__member img {
     position: absolute;
-    top: -40%;
-    width: 6.25rem;
-    height: 6.25rem;
+    top: -29%;
+    width: 6.3rem;
+    height: 6.3rem;
     border-radius: 50%;
     object-fit: cover;
 }
 
-.team__card{
+.team__card {
     width: 20rem;
-    height: 8rem;
-    padding: 10px;
+    height: 10rem;
+    padding: 20px;
     background: rgba(18, 15, 47, 1);
     border-radius: 16px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
 }
 
-.team__card h3{
-    
+.team__card h3 {
+    font-family: 'Clash Display', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.52px;
+}
+
+.team__card span {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24.6px;
+}
+
+.ourTeam__grad1 {
+    position: absolute;
+
+    width: 20%;
+    height: 20%;
+
+    left: 3%;
+    bottom: 5%;
+
+    background: #FF29C3;
+    filter: blur(180px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: -1;
+}
+
+.ourTeam__grad2 {
+    position: absolute;
+
+    width: 20%;
+    height: 20%;
+
+    left: 2%;
+    bottom: 30%;
+
+    border-radius: 50%;
+
+    background: #5416E9;
+    filter: blur(180px);
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    z-index: -1;
 }
