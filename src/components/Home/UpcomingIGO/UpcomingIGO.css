@@ -9,7 +9,6 @@
 }
 
 .IGO__desc{
-    margin-top: 20px;
     width: 962px;
     height: 60px;
 
@@ -20,7 +19,7 @@
 }
 
 .IGO__cardholder{
-    margin-top: 76px;
+    margin-top: 40px;
     display: grid;
     gap: 27px;
 

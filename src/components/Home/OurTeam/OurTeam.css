@@ -1,0 +1,61 @@
+.ourTeam__section h1{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61.5px;
+    text-align: center;
+    font-family: 'Clash Display', sans-serif;
+}
+
+.ourTeam__section p{
+    width: 55%;
+    text-align: center;
+}
+
+.team__members{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+}
+
+.team__member{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.pic__radius{
+    position: absolute;
+    width: 6.5rem;
+    height: 6.5rem;
+    background: var(--btn-grad);
+    border-radius: 50%;
+    top: -42%;
+}
+
+.team__member img{
+    position: absolute;
+    top: -40%;
+    width: 6.25rem;
+    height: 6.25rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team__card{
+    width: 20rem;
+    height: 8rem;
+    padding: 10px;
+    background: rgba(18, 15, 47, 1);
+    border-radius: 16px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.team__card h3{
+    
+}

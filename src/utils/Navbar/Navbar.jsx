@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
-import navLogo from '../../images/Logo.png'
+
+import { Link } from 'react-router-dom'
+
+import { navLogo } from '../../images'
 
 import { motion } from 'framer-motion'
 
@@ -55,10 +58,10 @@ const Navbar = () => {
         >
             <img className='nav__logo' src={navLogo} alt="nav-logo"></img>
             <ul className="nav__menu">
-                <li className='nav__list'><a href="/">Home</a></li>
-                <li className='nav__list'><a href="/">Gamepedia</a></li>
-                <li className='nav__list'><a href="/">Launchpad</a></li>
-                <li className='nav__list'><a href="/">NFT Marketplace</a></li>
+                <li className='nav__list'><Link to="/">Home</Link></li>
+                <li className='nav__list'><Link to="/gamepedia">Gamepedia</Link></li>
+                <li className='nav__list'><Link to="/launchpad">Launchpad</Link></li>
+                <li className='nav__list'><Link to="/nftmarketplace">NFT Marketplace</Link></li>
             </ul>
             <div className="nav__buttons">
                 <button className='nav__button'>Create</button>

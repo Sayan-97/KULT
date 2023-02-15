@@ -25,6 +25,8 @@ import NFTMarketLogo from './nft_marketplace.png'
 
 import NFTLogo from './nft-logo.svg'
 
+import navLogo from './Logo-nav.png'
+
 import artistImg1 from './artist1.png'
 import artistImg2 from './artist2.jpg'
 import artistImg3 from './artist3.png'
@@ -77,6 +79,8 @@ export {
     LaunchpadLogo,
 
     NFTLogo,
+
+    navLogo,
 
     artistImg1,
     artistImg2,
