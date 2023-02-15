@@ -19,9 +19,9 @@ const KultIGO = () => {
       <h1>Kult IGO's</h1>
       <p>Check out the Top Live Artists of the week. With the right amount of care and garnish, you can be featured on our front page as well!</p>
       <div className='kultIGO__nav'>
-        <div className='kultIGO__item active__list'>ONGOING</div>
-        <div className='kultIGO__item'>UPCOMING</div>
-        <div className='kultIGO__item'>ENDED</div>
+        <div className='kultIGO__item active__list'>Ongoing</div>
+        <div className='kultIGO__item'>Upcoming</div>
+        <div className='kultIGO__item'>Ended</div>
       </div>
       <div className="kultIGO__container">
 

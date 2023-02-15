@@ -21,7 +21,7 @@ const Header = () => {
                     <h1>The Future of <br />Gaming</h1>
                     <p>KULT is a dedicated gaming launchpad & IGO platform. We bring to you a <br />platform projects can use to maximize their project's scope.</p>
                     <div className="home__buttons">
-                        <button>Discover</button>
+                        <motion.button initial={{ background: "var(--btn-grad)" }}>Discover</motion.button>
                         <button className="secondary">Watch Now</button>
                     </div>
                 </div>

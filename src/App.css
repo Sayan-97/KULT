@@ -8,6 +8,7 @@
     --dark-bg: #040719;
 
     --btn-grad: linear-gradient(96.99deg, #5416E9 19.51%, #CF2AC0 99.53%);
+    --btn-grad2: linear-gradient(96.99deg, #5416E9 99.53%, #CF2AC0 19.51% );
 }
 
 /* ===== RESET HTML ===== */
@@ -93,7 +94,7 @@ button {
     width: 10.9rem;
     height: 3.9rem;
 
-    background: var(--btn-grad);
+    /* background: var(--btn-grad); */
     color: #fff;
 
     font-size: 1.109rem;
@@ -107,15 +108,17 @@ button {
 
 }
 
+
 .secondary {
+    background: transparent;
     height: 3.95rem;
     color: #fff;
     background-image: url('../src//images/Rectangle\ 2.png');
 }
 
-button:hover {
+/* button:hover {
     background: linear-gradient(96.99deg, #CF2AC0 19.51%, #5416E9 99.53%);
-}
+} */
 
 p {
     font-size: 1.25rem;

@@ -52,6 +52,8 @@ import JoinKultImg2 from './launch.png'
 import JoinKultImg3 from './kyc.png'
 import JoinKultImg4 from './share.png'
 
+import NewLogo from './new_logo.png'
+
 export {
     GamePic1,
     GamePic2,
@@ -105,5 +107,7 @@ export {
     JoinKultImg1,
     JoinKultImg2,
     JoinKultImg3,
-    JoinKultImg4
+    JoinKultImg4,
+
+    NewLogo
 }

@@ -3,7 +3,7 @@ import './Navbar.css'
 
 import { Link } from 'react-router-dom'
 
-import { navLogo } from '../../images'
+import { NewLogo } from '../../images'
 
 import { motion } from 'framer-motion'
 
@@ -31,7 +31,7 @@ const Navbar = () => {
             setNavbarColor(false);
         }
 
-        setLastScrollTop(currentScrollPos <= 0 ? 0 : currentScrollPos);
+        // setLastScrollTop(currentScrollPos <= 0 ? 0 : currentScrollPos);
     };
 
     useEffect(() => {
@@ -54,17 +54,46 @@ const Navbar = () => {
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: show ? 0 : -100, opacity: 1 }}
             transition={{ duration: 1, ease: 'easeInOut' }}
-            className = {`navbar ${navbarColor ? 'scrolled' : ''}`}
+            className={`navbar ${navbarColor ? 'scrolled' : ''}`}
         >
-            <img className='nav__logo' src={navLogo} alt="nav-logo"></img>
+            <img className='nav__logo' src={NewLogo} alt="nav-logo"></img>
             <ul className="nav__menu">
-                <li className='nav__list'><Link to="/">Home</Link></li>
-                <li className='nav__list'><Link to="/gamepedia">Gamepedia</Link></li>
-                <li className='nav__list'><Link to="/launchpad">Launchpad</Link></li>
-                <li className='nav__list'><Link to="/nftmarketplace">NFT Marketplace</Link></li>
+
+                <motion.li
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                >
+                    <Link className='nav__list' to="/">Home</Link>
+                </motion.li>
+
+                <motion.li
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                >
+                    <Link className='nav__list' to="/gamepedia">Gamepedia</Link>
+                </motion.li>
+
+                <motion.li
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                >
+                    <Link className='nav__list' to="/launchpad">Launchpad</Link>
+                </motion.li>
+
+                <motion.li
+                    whileTap={{ scale: 0.9 }}
+                    transition={{ type: "spring", stiffness: 200 }}
+                >
+                    <Link className='nav__list' to="/nftmarketplace">NFT Marketplace</Link>
+                </motion.li>
+
             </ul>
             <div className="nav__buttons">
-                <button className='nav__button'>Create</button>
+                <motion.button
+                    initial={{ background: "var(--btn-grad)" }}
+                    className='nav__button'
+                >
+                    Create</motion.button>
                 <button className='nav__button-secondary'>Log In</button>
             </div>
         </motion.nav>

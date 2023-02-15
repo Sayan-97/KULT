@@ -102,7 +102,7 @@ const UpcomingIGO = () => {
                 </div>
 
             </div>
-            <button>View More</button>
+            <motion.button initial={{ background: "var(--btn-grad)" }}>View More</motion.button>
         </motion.section>
     )
 }
