@@ -34,11 +34,11 @@
 .gradient-1 {
     position: absolute;
 
-    width: 60%;
+    width: 50%;
     height: 60%;
 
     top: 20%;
-    left: 20%;
+    left: 26%;
 
     background: #5416e9;
     filter: blur(137px);

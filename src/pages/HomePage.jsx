@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Header, KultOffers, UpcomingIGO, NFTMarketplace, TopArtist, Collection, KultIGO, JoinKult, OurTeam } from '../components/Home'
+import { Header, KultOffers, UpcomingIGO, NFTMarketplace, TopArtist, Collection, KultIGO, JoinKult, OurTeam, FAQ } from '../components/Home'
 
 const HomePage = () => {
     return (
@@ -14,6 +14,7 @@ const HomePage = () => {
             <KultIGO />
             <JoinKult />
             <OurTeam />
+            <FAQ />
         </>
     )
 }

@@ -60,28 +60,28 @@ const Navbar = () => {
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200 }}
+                    // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/">Home</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200 }}
+                    // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/gamepedia">Gamepedia</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200 }}
+                    // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/launchpad">Launchpad</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    transition={{ type: "spring", stiffness: 200 }}
+                    // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/nftmarketplace">NFT Marketplace</Link>
                 </motion.li>
@@ -92,7 +92,7 @@ const Navbar = () => {
                     initial={{ background: "var(--btn-grad)" }}
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.9 }}
-                    transition={{ type: 'spring', stiffness: 200 }}
+                    // transition={{ type: 'spring', stiffness: 200 }}
                     className='nav__button'
                 >
                     Create</motion.button>

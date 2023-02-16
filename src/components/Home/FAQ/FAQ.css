@@ -1,0 +1,40 @@
+.FAQ__section{
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 14%;
+}
+
+.FAQ__section-left{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 50%;
+    top: 5%;
+}
+
+.FAQ__section-left h1{
+    font-family: 'Clash Display', sans-serif;
+
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 61.5px;
+}
+
+.FAQ__section-left p{
+    margin-top: 40px;
+    text-align: start;
+
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.FAQ__section-right{
+    position: absolute;
+    right: 12.5%;
+    top: -2.5%;
+    width: 35%;
+}
