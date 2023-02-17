@@ -13,13 +13,12 @@ const UpcomingIGO = () => {
                 y: 0,
                 opacity: 1
             }}
-            // viewport={{ once: true }}
             transition={{ duration: 1 }}
             className='IGO__section'
         >
 
             <h1>Upcoming IGO's</h1>
-            <p className='IGO__desc'>Easy to join IGOs designed to bring ease for all users. Stay connected and subscribe to stay up-to-date with our IGOs and upcoming projects.</p>
+            <p>Easy to join IGOs designed to bring ease for all users. Stay connected and subscribe to stay up-to-date with our IGOs and upcoming projects.</p>
 
             <div className="IGO__cardholder">
 

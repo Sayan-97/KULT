@@ -1,0 +1,8 @@
+
+.footer-img{
+    position: absolute;
+    transform: rotate(180deg);
+    width: 100%;
+    bottom: -5.15%;
+    z-index: 1;
+}

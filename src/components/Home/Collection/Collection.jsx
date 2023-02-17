@@ -25,7 +25,7 @@ const Collection = () => {
                     <div className='profile__grad'></div>
                     <img src={propic} alt="" />
                     <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
+                        <h3>Robert Fox</h3>
                         <p>#394</p>
                     </div>
                 </div>

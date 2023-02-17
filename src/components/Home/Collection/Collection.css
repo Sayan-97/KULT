@@ -1,35 +1,26 @@
-.collection__section h1{
-    font-family: 'Clash Display', sans-serif;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 120%;
-    width: 30%;
-    text-align: center;
-}
-
 .collections{
-    margin-top: 4%;
-    display: grid;
-    align-items: center;
-    gap: 10%;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 40px;
     width: 80%;
-    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    gap: 40px;
 }
 
 .collection__profile{
     position: relative;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
 .profile__grad{
     position: absolute;
     left: -1%;
-    width: 40%;
-    height: 105%;
+    top: -2%;
+    width: 41%;
+    height: 104%;
     border-radius: 50%;
     background: var(--btn-grad);
     z-index: -1;
@@ -45,11 +36,17 @@
 .pro__detail{
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
+}
+
+.pro__detail h3{
+    font-weight: 400;
 }
 
 .pro__detail p{
     color: blue;
+    text-align: left;
 }
 
 .gradient-6{

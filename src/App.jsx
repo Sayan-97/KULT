@@ -2,7 +2,7 @@ import './App.css';
 
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
-import { Navbar, Mountains, LinesBg, GlassOverlay } from './utils';
+import { Navbar, GlassOverlay } from './utils';
 
 import { HomePage, GamepediaPage, LaunchpadPage, MarketplacePage } from './pages';
 
@@ -10,8 +10,6 @@ function App() {
   return (
     <BrowserRouter>
       <GlassOverlay />
-      <Mountains />
-      <LinesBg />
       <Navbar />
       <main>
         <Routes>
@@ -21,7 +19,6 @@ function App() {
           <Route path='/nftmarketplace' element={<MarketplacePage />} />
         </Routes>
       </main>
-      <Mountains />
     </BrowserRouter>
   );
 }

@@ -9,6 +9,7 @@ import { NFTLogo } from '../../../images'
 
 import { motion } from 'framer-motion'
 
+
 const NFTMarketplace = () => {
     return (
         <motion.section
@@ -34,117 +35,108 @@ const NFTMarketplace = () => {
             <div className="nft__cardholder">
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg1} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg1} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-                            <img src={Person2} alt="img" />
-                            <img src={Person3} alt="img" />
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
                             <span>Multiple Owners</span>
                         </div>
                         <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>
                 </div>
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg2} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg2} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-
-                            <p>Multiple Owners</p>
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
+                            <span>Multiple Owners</span>
                         </div>
-                        <p>Auction Time</p>
+                        <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>
                 </div>
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg3} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg3} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-                            <img src={Person2} alt="img" />
-                            <img src={Person3} alt="img" />
-                            <p>Multiple Owners</p>
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
+                            <span>Multiple Owners</span>
                         </div>
-                        <p>Auction Time</p>
+                        <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>
                 </div>
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg4} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg4} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-                            <img src={Person2} alt="img" />
-                            <img src={Person3} alt="img" />
-                            <p>Multiple Owners</p>
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
+                            <span>Multiple Owners</span>
                         </div>
-                        <p>Auction Time</p>
+                        <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>
                 </div>
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg5} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg5} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-                            <p>Multiple Owners</p>
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
+                            <span>Multiple Owners</span>
                         </div>
-                        <p>Auction Time</p>
+                        <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>
                 </div>
 
                 <div className="nft__card">
-                    <div className="card__img">
-                        <img src={NFTCardImg6} alt="cardImg" />
-                    </div>
+                    <img src={NFTCardImg6} alt="cardImg" />
                     <div className="nftcard__content">
-                        <h2>Stoned</h2>
+                        <h3>Stoned</h3>
                         <div className="card__owner">
-                            <img src={Person1} alt="img" />
-                            <img src={Person2} alt="img" />
-                            <img src={Person3} alt="img" />
-                            <p>Multiple Owners</p>
+                            <img src={Person1} alt="" />
+                            <img src={Person2} alt="" />
+                            <img src={Person3} alt="" />
+                            <span>Multiple Owners</span>
                         </div>
-                        <p>Auction Time</p>
+                        <span>Auction Time</span>
                         <span className='auction__time'>3h 1m 50s</span>
-                        <span className='price'><img src={NFTLogo} alt="nftLogo" /> 0.13 ETH</span>
+                        <div className='price'><img src={NFTLogo} alt="nftLogo" /><span>0.13 ETH</span></div>
                         <div className="g_top"></div>
                         <div className="g_bottom"></div>
                     </div>

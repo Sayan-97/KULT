@@ -51,11 +51,10 @@ body {
     background: var(--dark-bg);
 
     z-index: -1;
-    position: relative;
-
 }
 
 main {
+    position: relative;
     width: 100%;
     height: auto;
     padding-top: 9.5%;
@@ -70,58 +69,66 @@ main {
 section {
     width: 100%;
     height: auto;
+    gap: 50px;
 
     margin-bottom: 14.5%;
 
     position: relative;
 
-    padding: 1.25rem;
+    padding: 0 9.375rem;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 45px;
 
     z-index: 9;
-    /* overflow: hidden; */
+}
+
+h1{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 3.125em;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+}
+
+h2{
+    font-family: 'Clash Display', sans-serif;
+    font-size: 2.25em;
+    font-weight: 600;
+    text-align: center;
+}
+
+h3{
+    font-size: 1.25em;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+p{
+    font-size: 1.25em;
+    font-weight: 400;
+    text-align: center;
+    width: 80%;
 }
 
 button {
     cursor: pointer;
 
-    padding: 13px 19px 14px;
+    padding: 13px 19px;
     width: 10.9rem;
     height: 3.9rem;
-
-    /* background: var(--btn-grad); */
-    color: #fff;
 
     font-size: 1.109rem;
     font-weight: 700;
     line-height: 21px;
     letter-spacing: .5px;
 
-    border: none;
-    outline: none;
     border-radius: 6px;
-
 }
-
 
 .secondary {
     background: transparent;
     height: 3.95rem;
-    color: #fff;
     background-image: url('../src//images/Rectangle\ 2.png');
-}
-
-/* button:hover {
-    background: linear-gradient(96.99deg, #CF2AC0 19.51%, #5416E9 99.53%);
-} */
-
-p {
-    font-size: 1.25rem;
-    font-weight: 400;
-    line-height: 2rem;
-    text-align: center;
 }

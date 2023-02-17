@@ -1,41 +1,14 @@
-.IGO__section h1{
-    width: 392px;
-    height: 62px;
-
-    font-family: 'Clash Display', sans-serif;
-    font-weight: 600;
-    font-size: 50px;
-    line-height: 61.5px;
-}
-
-.IGO__desc{
-    width: 962px;
-    height: 60px;
-
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
-}
-
 .IGO__cardholder{
-    margin-top: 40px;
-    display: grid;
-    gap: 27px;
+    width: 100%;
+    gap: 20px;    
 
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.IGO__card{
-    width: 396px;
-    height: 315px;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .IGO__card img{
-    width: 396px;
-    height: 207px;
+    width: 24.75em;
+    height: 12.938em;
 
     border-radius: 16px 16px 0 0;
     object-fit: cover;
@@ -43,8 +16,8 @@
 
 .card__details{
     position: relative;
-    width: 396px;
-    height: 108px;
+    width: 24.75rem;
+    height: 6.75rem;
     border-radius: 0 0 16px 16px;
     top: -6px;
     padding: 17px 24px;
@@ -55,21 +28,14 @@
     overflow: hidden;
 }
 
-.card__details h3{
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-}
-
 .card__countdown{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 12px;
-    gap: 4px;
+    margin-top: 2%;
 
-    width: 138px;
-    height: 32px;
+    width: 8.625rem;
+    height: 2rem;
 
     background: linear-gradient(93.03deg, rgba(255, 255, 255, 0.16) 1.38%, rgba(255, 255, 255, 0.0672) 102.75%);
     border-radius: 4px;
@@ -104,15 +70,4 @@
 
     background: #cf2ac0;
     filter: blur(111.5px);
-}
-
-.IGO__section button{
-    margin-top: 20px;
-
-    width: 173.07px;
-    height: 62.13px;
-
-    font-size: 17.75px;
-    font-weight: 700;
-    line-height: 26.63px;
 }
