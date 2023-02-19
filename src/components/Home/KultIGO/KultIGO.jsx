@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './KultIGO.css'
 
 import { motion } from 'framer-motion'
@@ -6,9 +6,12 @@ import { motion } from 'framer-motion'
 import { KultIGOImg1, KultIGOImg2, KultIGOImg3, KultIGOImg4, KultIGOImg5, KultIGOImg6, KultIGOImg7, KultIGOImg8, KultIGOImg9 } from '../../../images'
 
 const KultIGO = () => {
+
+  const [ActiveList, setActiveList] = useState('Ongoing')
+
   return (
     <motion.section
-      initial={{ y: 20, opacity: 0 }}
+      initial={{ y: '10', opacity: 0 }}
       whileInView={{
         y: 0,
         opacity: 1
@@ -18,11 +21,11 @@ const KultIGO = () => {
     >
       <h1>Kult IGO's</h1>
       <p>Check out the Top Live Artists of the week. With the right amount of care and garnish, you can be featured on our front page as well!</p>
-      <div className='kultIGO__nav'>
-        <div className='kultIGO__item active__list'>Ongoing</div>
-        <div className='kultIGO__item'>Upcoming</div>
-        <div className='kultIGO__item'>Ended</div>
-      </div>
+      <ul className='kultIGO__nav'>
+        {['Ongoing', 'Upcoming', 'Ended'].map((item) => {
+          return <li className={`kultIGO__item ${ActiveList === item ? 'active__list' : ''}`} onClick={() => setActiveList(item)}>{item}</li>
+        })}
+      </ul>
       <div className="kultIGO__container">
 
         <div className="kultIGO__card">
