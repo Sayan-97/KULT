@@ -6,7 +6,7 @@ import { NFTLogo } from "../../../images";
 
 import { motion } from "framer-motion";
 
-import NFTData from "../../../utils/constants";
+import { NFTData } from "../../../utils/constants";
 
 const NFTMarketplace = () => {
     const [ActiveFilter, setActiveFilter] = useState("Exclusive");
