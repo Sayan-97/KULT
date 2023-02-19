@@ -73,11 +73,12 @@
     overflow: hidden;
     border: 2px solid white;
     object-fit: cover;
+    margin-right: 10px;
 }
 
 .card__owner img:nth-child(2),
 .card__owner img:nth-child(3){
-    margin-left: -10px;
+    margin-left: -20px;
 }
 
 .auction__time {

@@ -52,7 +52,7 @@ const Navbar = () => {
         <motion.nav
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: show ? 0 : -100, opacity: 1 }}
-            transition={{ duration: 1, ease: 'easeInOut' }}
+            transition={{ duration: 0.6 }}
             className={`navbar ${navbarColor ? 'scrolled' : ''}`}
         >
             <img className='nav__logo' src={NewLogo} alt="nav-logo"></img>

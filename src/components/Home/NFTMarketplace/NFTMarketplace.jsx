@@ -58,8 +58,7 @@ const NFTMarketplace = () => {
                         <h3>Stoned</h3>
                         <div className="card__owner">
                             <img src={Person1} alt="" />
-                            <img src={Person2} alt="" />
-                            <img src={Person3} alt="" />
+                            
                             <span>Multiple Owners</span>
                         </div>
                         <span>Auction Time</span>
@@ -130,8 +129,7 @@ const NFTMarketplace = () => {
                         <h3>Stoned</h3>
                         <div className="card__owner">
                             <img src={Person1} alt="" />
-                            <img src={Person2} alt="" />
-                            <img src={Person3} alt="" />
+                            
                             <span>Multiple Owners</span>
                         </div>
                         <span>Auction Time</span>
