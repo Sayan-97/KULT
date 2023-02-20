@@ -53,10 +53,12 @@ const NFTMarketplace = () => {
                             <div className="nftcard__content">
                                 <h3>{item.name}</h3>
                                 <div className="card__owner">
-                                    <img src={item.cardOwners.Person1} alt="img" />
-                                    <img src={item.cardOwners.Person2} alt="img" />
-                                    <img src={item.cardOwners.Person3} alt="img" />
-                                    <span>Multiple Owners</span>
+                                    {item.cardOwners.map((owner) => {
+                                        return(
+                                            <img src={owner.imgUrl} alt="img" />
+                                        )
+                                    })}
+                                    <span>Multiple Owner</span>
                                 </div>
                                 <span>Auction Time</span>
                                 <span className="auction__time">{item.time}</span>

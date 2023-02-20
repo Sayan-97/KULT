@@ -12,11 +12,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg1,
         name: 'Stoned',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -24,11 +24,10 @@ const NFTData = [
     {
         nftPicture: NFTCardImg2,
         name: 'Mystic Island',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -36,11 +35,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg3,
         name: 'Cyberpunk Metaverse',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -48,11 +47,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg4,
         name: 'Heaven Platform',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -60,11 +59,9 @@ const NFTData = [
     {
         nftPicture: NFTCardImg5,
         name: 'Metachicks',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -72,11 +69,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg6,
         name: 'Roll Meta',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Exclusive'
@@ -85,11 +82,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg6,
         name: 'Roll Meta',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Random'
@@ -97,11 +94,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg5,
         name: 'Metachicks',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Random'
@@ -109,11 +106,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg4,
         name: 'Heaven Platform',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Random'
@@ -121,11 +118,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg2,
         name: 'Mystic Island',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Random'
@@ -134,11 +131,9 @@ const NFTData = [
     {
         nftPicture: NFTCardImg2,
         name: 'Mystic Island',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Retrowave'
@@ -146,11 +141,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg3,
         name: 'Cyberpunk Metaverse',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Retrowave'
@@ -158,11 +153,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg4,
         name: 'Heaven Platform',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Retrowave'
@@ -170,11 +165,10 @@ const NFTData = [
     {
         nftPicture: NFTCardImg5,
         name: 'Metachicks',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Retrowave'
@@ -182,11 +176,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg6,
         name: 'Roll Meta',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Retrowave'
@@ -194,11 +188,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg3,
         name: 'Shark Hero',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            {imgUrl: Person1},
+            {imgUrl: Person2},
+            {imgUrl: Person3}
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Sci-Fi'
@@ -206,11 +200,11 @@ const NFTData = [
     {
         nftPicture: NFTCardImg6,
         name: 'Inner Peace',
-        cardOwners: {
-            Person1,
-            Person2,
-            Person3
-        },
+        cardOwners: [
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
+        ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
         category: 'Sci-Fi'
