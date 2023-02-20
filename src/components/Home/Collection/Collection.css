@@ -3,16 +3,17 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-
+    justify-content: space-around;
     align-items: flex-start;
 
-    gap: 40px;
+    gap: 5rem;
 }
 
 .collection__profile{
     position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 

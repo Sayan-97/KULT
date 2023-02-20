@@ -550,21 +550,6 @@ const topCollections = [
         name: 'Robert Fox',
         number: '#377'
     },
-    {
-        image: artist2,
-        name: 'Robert Fox',
-        number: '#377'
-    },
-    {
-        image: artist2,
-        name: 'Robert Fox',
-        number: '#377'
-    },
-    {
-        image: artist2,
-        name: 'Robert Fox',
-        number: '#377'
-    },
 ]
 
 const FAQs = [

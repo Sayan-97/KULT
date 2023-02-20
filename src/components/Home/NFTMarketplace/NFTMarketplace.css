@@ -14,6 +14,11 @@
     justify-content: center;
 
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.nft__list:hover{
+    background: #2A47A1;
 }
 
 .list-active {

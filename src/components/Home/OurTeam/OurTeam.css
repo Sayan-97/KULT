@@ -3,8 +3,11 @@
     margin-top: 40px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 80px;
+    justify-content: center;
+    align-items: center;
+    /* gap: 3rem; */
+    /* gap: 5%; */
+    gap: 5em;
 }
 
 .team__member {
@@ -33,7 +36,7 @@
 }
 
 .team__card {
-    width: 20rem;
+    width: 22rem;
     height: 10rem;
     padding: 20px;
     background: rgba(18, 15, 47, 1);
@@ -64,12 +67,12 @@
     width: 20%;
     height: 20%;
 
-    left: 3%;
-    bottom: 5%;
+    left: 5%;
+    bottom: 0;
 
     background: #FF29C3;
     filter: blur(180px);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     z-index: -1;
 }
 
@@ -80,12 +83,12 @@
     height: 20%;
 
     left: 2%;
-    bottom: 30%;
+    bottom: 40%;
 
     border-radius: 50%;
 
     background: #5416E9;
     filter: blur(180px);
-    transform: matrix(-1, 0, 0, 1, 0, 0);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
     z-index: -1;
 }
