@@ -4,6 +4,10 @@ import { Person1, Person2, Person3 } from '../images'
 
 import { KultIGOImg1, KultIGOImg2, KultIGOImg3, KultIGOImg4, KultIGOImg5, KultIGOImg6, KultIGOImg7, KultIGOImg8, KultIGOImg9 } from '../images'
 
+import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../images'
+
+import { artist1, artist2, artist3, artist4, artistImg1, artistImg2, artistImg3, artistImg4 } from '../images'
+
 const NFTData = [
     {
         nftPicture: NFTCardImg1,
@@ -212,6 +216,7 @@ const NFTData = [
         category: 'Sci-Fi'
     }
 ]
+
 
 const IGOData = [
     {
@@ -428,7 +433,166 @@ const IGOData = [
     },
 ]
 
+
+const UpcomingIGOData = [
+    {
+        image: GamePic1,
+        name: 'The legends of Elysium',
+        countDown: '05:08:46'
+    },
+    {
+        image: GamePic2,
+        name: 'Chain of Alliance',
+        countDown: '05:08:46'
+    },
+    {
+        image: GamePic3,
+        name: 'Whisper of Soul',
+        countDown: '05:08:46'
+    },
+    {
+        image: GamePic4,
+        name: 'Rage Effect',
+        countDown: '05:08:46'
+    },
+    {
+        image: GamePic5,
+        name: 'Occupy Wallstreet',
+        countDown: '05:08:46'
+    },
+    {
+        image: GamePic6,
+        name: 'The legends of Elysium',
+        countDown: '05:08:46'
+    },
+]
+
+const topArtist = [
+    {
+        image: artistImg1,
+        artistPic: artist1,
+        name: 'John Doe',
+        number: '#47'
+    },
+    {
+        image: artistImg2,
+        artistPic: artist2,
+        name: 'Mika Sins',
+        number: '#34'
+    },
+    {
+        image: artistImg3,
+        artistPic: artist3,
+        name: 'Michal Doe',
+        number: '#17'
+    },
+    {
+        image: artistImg4,
+        artistPic: artist4,
+        name: 'Carl John',
+        number: '#89'
+    }
+]
+
+
+const topCollections = [
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+    {
+        image: artist2,
+        name: 'Robert Fox',
+        number: '#377'
+    },
+]
+
+const FAQs = [
+    {
+        question: 'How can one join IGOs and INOs?',
+        answer: 'Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.'
+    },
+    {
+        question: 'What does IGO and INO mean?',
+        answer: 'Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.'
+    },
+    {
+        question: 'How can one play Games?',
+        answer: 'Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.'
+    },
+]
+
 export{
     NFTData,
-    IGOData
+    IGOData,
+    UpcomingIGOData,
+    topArtist,
+    topCollections,
+    FAQs
 }

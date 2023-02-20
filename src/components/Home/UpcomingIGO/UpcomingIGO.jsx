@@ -3,7 +3,7 @@ import './UpcomingIGO.css'
 
 import { motion } from 'framer-motion'
 
-import { GamePic1, GamePic2, GamePic3, GamePic4, GamePic5, GamePic6 } from '../../../images'
+import { UpcomingIGOData } from '../../../utils/constants'
 
 const UpcomingIGO = () => {
     return (
@@ -22,83 +22,22 @@ const UpcomingIGO = () => {
 
             <div className="IGO__cardholder">
 
-                <div className='IGO__card'>
-                    <img src={GamePic1} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>The legends of Elysium</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
+                {UpcomingIGOData.map((item) => {
+                    return (
+                        <div div className='IGO__card' >
+                            <img src={item.image} alt="game-pic1" />
+                            <div className="card__details">
+                                <h3>{item.name}</h3>
+                                <div className="card__countdown">
+                                    <i class="uil uil-clock"></i>
+                                    <p>{item.countDown}</p>
+                                </div>
+                                <div className="g_top"></div>
+                                <div className="g_bottom"></div>
+                            </div>
                         </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
-
-                <div className='IGO__card'>
-                    <img src={GamePic2} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>Chain of Alliance</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
-                        </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
-
-                <div className='IGO__card'>
-                    <img src={GamePic3} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>Whisper of Soul</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
-                        </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
-
-                <div className='IGO__card'>
-                    <img src={GamePic4} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>Rage Effect</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
-                        </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
-
-                <div className='IGO__card'>
-                    <img src={GamePic5} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>Occupy Wallstreet</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
-                        </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
-
-                <div className='IGO__card'>
-                    <img src={GamePic6} alt="game-pic1" />
-                    <div className="card__details">
-                        <h3>The legends of Elysium</h3>
-                        <div className="card__countdown">
-                            <i class="uil uil-clock"></i>
-                            <p>05:08:46</p>
-                        </div>
-                        <div className="g_top"></div>
-                        <div className="g_bottom"></div>
-                    </div>
-                </div>
+                    )
+                })}
 
             </div>
             <motion.button initial={{ background: "var(--btn-grad)" }}>View More</motion.button>

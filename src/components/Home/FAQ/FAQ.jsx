@@ -7,6 +7,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 import {motion} from 'framer-motion'
 
+import { FAQs } from '../../../utils/constants';
+
 const FAQ = () => {
     return (
         <motion.section
@@ -24,49 +26,25 @@ const FAQ = () => {
             </div>
             <div className='FAQ__section-right'>
 
-                <Accordion defaultExpanded={true} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px'  }}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}
-                    >
-                        <Typography
-                            sx={{ fontSize: '20px', fontWeight: '700' }}
-                        >How can one join IGOs and INOs?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails sx={{ height: '100%' }}>
-                        <Typography sx={{ fontSize: '18px', textAlign: 'left', marginTop: '10px' }}>
-                            Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion sx={{ background: 'transparent', color: '#fff', marginBottom: '20px'}}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}
-                    >
-                        <Typography sx={{ fontSize: '20px', fontWeight: '700' }}>What does IGO and INO mean?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails sx={{ height: '100%' }}>
-                        <Typography sx={{ fontSize: '18px', textAlign: 'left', marginTop: '10px' }}>
-                            Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
-
-                <Accordion sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
-                    <AccordionSummary
-                        expandIcon={<ExpandMoreIcon />}
-                        sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}
-                    >
-                        <Typography sx={{ fontSize: '20px', fontWeight: '700' }}>What does IGO and INO mean?</Typography>
-                    </AccordionSummary>
-                    <AccordionDetails sx={{ height: '100%' }}>
-                        <Typography sx={{ fontSize: '18px', textAlign: 'left', marginTop: '10px' }}>
-                            Follow the steps mentioned above in the gaming section for a deeper insight, or read our documentation on joining IGOs and INOs.
-                        </Typography>
-                    </AccordionDetails>
-                </Accordion>
+                {FAQs.map((item, index) => {
+                    return(
+                        <Accordion defaultExpanded={index === 0 ? true : false} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
+                            <AccordionSummary
+                                expandIcon={<ExpandMoreIcon />}
+                                sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}
+                            >
+                                <Typography
+                                    sx={{ fontSize: '20px', fontWeight: '700' }}
+                                >{item.question}</Typography>
+                            </AccordionSummary>
+                            <AccordionDetails sx={{ height: '100%' }}>
+                                <Typography sx={{ fontSize: '18px', textAlign: 'left', marginTop: '10px' }}>
+                                    {item.answer}
+                                </Typography>
+                            </AccordionDetails>
+                        </Accordion>
+                    )
+                })}
 
             </div>
         </motion.section>

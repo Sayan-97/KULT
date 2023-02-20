@@ -3,7 +3,7 @@ import './Collection.css'
 
 import { motion } from 'framer-motion'
 
-import propic from '../../../images/artist-pic2.webp'
+import { topCollections } from '../../../utils/constants'
 
 const Collection = () => {
     return (
@@ -21,113 +21,18 @@ const Collection = () => {
             <h1>Top Collections of Last 7 Days</h1>
             <div className="collections">
 
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3>Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
-
-                <div className="collection__profile">
-                    <div className='profile__grad'></div>
-                    <img src={propic} alt="" />
-                    <div className="pro__detail">
-                        <h3 className="pro__name">Robert Fox</h3>
-                        <p>#394</p>
-                    </div>
-                </div>
+                {topCollections.map((item) => {
+                    return (
+                        <div className="collection__profile">
+                            <div className='profile__grad'></div>
+                            <img src={item.image} alt="" />
+                            <div className="pro__detail">
+                                <h3>{item.name}</h3>
+                                <p>{item.number}</p>
+                            </div>
+                        </div>
+                    )
+                })}
 
             </div>
         </motion.section>

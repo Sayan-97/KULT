@@ -1,7 +1,7 @@
 .FAQ__section{
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-bottom: 50px;
 }
 
 .FAQ__section-left{

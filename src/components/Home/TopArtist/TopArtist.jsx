@@ -4,7 +4,7 @@ import './TopArtist.css'
 
 import { motion } from 'framer-motion'
 
-import { artist1, artist2, artist3, artist4, artistImg1, artistImg2, artistImg3, artistImg4 } from '../../../images'
+import { topArtist } from '../../../utils/constants'
 
 const TopArtist = () => {
     return (
@@ -23,37 +23,17 @@ const TopArtist = () => {
 
             <div className="artist__cardholder">
 
-                <div className="artist__card">
-                    <img src={artistImg1} alt="artistImg" className='artist__img' />
-                    <img src={artist1} alt="artist" className='artist' />
-                    <div className='artist__detail'>
-                        <h3>John Doe #47</h3>
-                    </div>
-                </div>
-
-                <div className="artist__card">
-                    <img src={artistImg2} alt="artistImg" className='artist__img' />
-                    <img src={artist2} alt="artist" className='artist' />
-                    <div className='artist__detail'>
-                        <h3>Mika Sins #34</h3>
-                    </div>
-                </div>
-
-                <div className="artist__card">
-                    <img src={artistImg3} alt="artistImg" className='artist__img' />
-                    <img src={artist3} alt="artist" className='artist' />
-                    <div className='artist__detail'>
-                        <h3>Carl John #22</h3>
-                    </div>
-                </div>
-
-                <div className="artist__card">
-                    <img src={artistImg4} alt="artistImg" className='artist__img' />
-                    <img src={artist4} alt="artist" className='artist' />
-                    <div className='artist__detail'>
-                        <h3>Michal Doe #77</h3>
-                    </div>
-                </div>
+                {topArtist.map((item) => {
+                    return(
+                        <div className="artist__card">
+                            <img src={item.image} alt="artistImg" className='artist__img' />
+                            <img src={item.artistPic} alt="artist" className='artist' />
+                            <div className='artist__detail'>
+                                <h3>{item.name} {item.number}</h3>
+                            </div>
+                        </div>
+                    )
+                })}
 
             </div>
         </motion.section>
