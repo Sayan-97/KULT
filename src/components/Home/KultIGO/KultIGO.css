@@ -14,15 +14,18 @@
     justify-content: center;
 
     cursor: pointer;
-    transition: all 0.2s ease-in-out;
+    border: 1px solid transparent;
+    transition: border 0.5s ease-in-out;
 }
 
 .kultIGO__item:hover{
-    background: #5416e9;
+    border: 1px solid #2A47A1;
+    background: #2A47A1;
+    transition: all 0.2s ease-in-out;
 }
 
 .active__list {
-    background: #5416e9;
+    background: #2A47A1;
 }
 
 .kultIGO__container {

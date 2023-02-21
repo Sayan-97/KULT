@@ -1,7 +1,6 @@
 .FAQ__section{
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 50px;
 }
 
 .FAQ__section-left{
@@ -31,6 +30,6 @@
 .FAQ__section-right{
     position: absolute;
     right: 12.5%;
-    top: -2.5%;
+    top: 0;
     width: 35%;
 }

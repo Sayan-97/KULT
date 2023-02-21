@@ -2,14 +2,19 @@ import React from 'react'
 import './LinesBg.css'
 import Lines from '../../images/lines.png'
 
+import {motion} from 'framer-motion'
+
 const LinesBg = () => {
     return (
-        <>
-        <img className='lines__img' src={Lines} alt="lines" />
-        {/* <img className='lines__footer' src={Lines} alt="lines" /> */}
+        <motion.img
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
         
-        </>
-        
+            className='lines__img' 
+            src={Lines} 
+            alt="lines" 
+        />
     )
 }
 

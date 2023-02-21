@@ -1,15 +1,22 @@
 import React from 'react'
 import './FAQ.css'
 
-import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material'
+import { Accordion, AccordionSummary, AccordionDetails, Typography } from '@mui/material';
 
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 import { FAQs } from '../../../utils/constants';
 
 const FAQ = () => {
+
+    const [expanded, setExpanded] = React.useState('panel0');
+
+    const handleChange = (panel) => (event, newExpanded) => {
+        setExpanded(newExpanded ? panel : false);
+    };
+
     return (
         <motion.section
             initial={{ y: '10', opacity: 0 }}
@@ -27,14 +34,14 @@ const FAQ = () => {
             <div className='FAQ__section-right'>
 
                 {FAQs.map((item, index) => {
-                    return(
-                        <Accordion defaultExpanded={index === 0 ? true : false} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
+                    return (
+                        <Accordion expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}
                             >
                                 <Typography
-                                    sx={{ fontSize: '20px', fontWeight: '700' }}
+                                    sx={{ fontSize: '20px', fontWeight: '700', textAlign: 'left' }}
                                 >{item.question}</Typography>
                             </AccordionSummary>
                             <AccordionDetails sx={{ height: '100%' }}>
