@@ -26,14 +26,14 @@ const KultIGO = () => {
       <p>Check out the Top Live Artists of the week. With the right amount of care and garnish, you can be featured on our front page as well!</p>
       <ul className='kultIGO__nav'>
         {['Ongoing', 'Upcoming', 'Ended'].map((item) => {
-          return <li className={`kultIGO__item ${ActiveList === item ? 'active__list' : ''}`} onClick={() => setActiveList(item)}>{item}</li>
+          return <li key={item} className={`kultIGO__item ${ActiveList === item ? 'active__list' : ''}`} onClick={() => setActiveList(item)}>{item}</li>
         })}
       </ul>
       <div className="kultIGO__container">
 
-        {filteredData.map((item) => {
+        {filteredData.map((item, index) => {
           return (
-            <div className="kultIGO__card" >
+            <div key={index} className="kultIGO__card" >
               <img src={item.igoImage} alt="img" />
               <div className="kultIGO__card-desc">
                 <div className='kultIGO__grad1'></div>

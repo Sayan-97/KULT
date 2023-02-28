@@ -35,7 +35,7 @@ const FAQ = () => {
 
                 {FAQs.map((item, index) => {
                     return (
-                        <Accordion expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
+                        <Accordion key={index} expanded={expanded === `panel${index}`} onChange={handleChange(`panel${index}`)} sx={{ background: 'transparent', color: '#fff', marginBottom: '20px' }}>
                             <AccordionSummary
                                 expandIcon={<ExpandMoreIcon />}
                                 sx={{ borderBottom: '0.5px solid #2A47A1', borderBottomRightRadius: '30px' }}

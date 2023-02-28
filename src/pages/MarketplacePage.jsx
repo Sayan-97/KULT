@@ -1,10 +1,14 @@
 import React from 'react'
-import Marketplace from '../components/NFT Marketplace/Marketplace'
+import { FeaturedNFTs, PopularCollections, TodaysPicks, TopSeller, TrendingNFTs } from '../components/NFT Marketplace'
 
 const MarketplacePage = () => {
   return (
     <>
-        <Marketplace />
+        <TodaysPicks />
+        <TrendingNFTs />
+        <TopSeller />
+        <FeaturedNFTs />
+        <PopularCollections />
     </>
   )
 }

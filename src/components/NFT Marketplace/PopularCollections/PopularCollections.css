@@ -1,0 +1,10 @@
+.popCollection__title{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popCollection__title h1{
+    text-align: start;
+}

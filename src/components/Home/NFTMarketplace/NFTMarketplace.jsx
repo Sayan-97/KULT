@@ -36,6 +36,7 @@ const NFTMarketplace = () => {
                 {["Exclusive", "Random", "Sci-Fi", "Retrowave"].map((item) => {
                     return (
                         <li
+                            key={item}
                             className={`nft__list ${ActiveFilter === item ? "list-active" : ""
                                 }`}
                             onClick={() => setActiveFilter(item)}
@@ -46,16 +47,16 @@ const NFTMarketplace = () => {
                 })}
             </ul>
             <div className="nft__cardholder">
-                {filteredData.map((item) => {
+                {filteredData.map((item, index) => {
                     return (
-                        <div className="nft__card">
+                        <div key={index} className="nft__card">
                             <img src={item.nftPicture} alt="cardImg" />
                             <div className="nftcard__content">
                                 <h3>{item.name}</h3>
                                 <div className="card__owner">
-                                    {item.cardOwners.map((owner) => {
-                                        return(
-                                            <img src={owner.imgUrl} alt="img" />
+                                    {item.cardOwners.map((owner, index) => {
+                                        return (
+                                            <img key={index} src={owner.imgUrl} alt="img" />
                                         )
                                     })}
                                     <span>Multiple Owner</span>
@@ -76,7 +77,7 @@ const NFTMarketplace = () => {
             <motion.button initial={{ background: "var(--btn-grad)" }}>
                 View More
             </motion.button>
-        </motion.section>
+        </motion.section >
     );
 };
 

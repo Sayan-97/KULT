@@ -189,9 +189,9 @@ const NFTData = [
         nftPicture: NFTCardImg3,
         name: 'Shark Hero',
         cardOwners: [
-            {imgUrl: Person1},
-            {imgUrl: Person2},
-            {imgUrl: Person3}
+            { imgUrl: Person1 },
+            { imgUrl: Person2 },
+            { imgUrl: Person3 }
         ],
         time: '3h 1m 50s',
         price: '0.13 ETH',
@@ -567,7 +567,7 @@ const FAQs = [
     },
 ]
 
-export{
+export {
     NFTData,
     IGOData,
     UpcomingIGOData,

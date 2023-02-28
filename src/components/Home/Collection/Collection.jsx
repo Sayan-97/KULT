@@ -21,9 +21,9 @@ const Collection = () => {
             <h1>Top Collections of Last 7 Days</h1>
             <div className="collections">
 
-                {topCollections.map((item) => {
+                {topCollections.map((item, index) => {
                     return (
-                        <div className="collection__profile">
+                        <div key={index} className="collection__profile">
                             <div className='profile__grad'></div>
                             <img src={item.image} alt="" />
                             <div className="pro__detail">

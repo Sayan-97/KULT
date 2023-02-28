@@ -23,9 +23,9 @@ const TopArtist = () => {
 
             <div className="artist__cardholder">
 
-                {topArtist.map((item) => {
+                {topArtist.map((item, index) => {
                     return(
-                        <div className="artist__card">
+                        <div key={index} className="artist__card">
                             <img src={item.image} alt="artistImg" className='artist__img' />
                             <img src={item.artistPic} alt="artist" className='artist' />
                             <div className='artist__detail'>

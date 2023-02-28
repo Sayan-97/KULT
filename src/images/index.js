@@ -54,6 +54,9 @@ import JoinKultImg4 from './share.png'
 
 import NewLogo from './new_logo.png'
 
+import TodaysPic1 from './todaysPicks1.png'
+import TodaysPic2 from './todaysPicks2.webp'
+
 export {
     GamePic1,
     GamePic2,
@@ -109,5 +112,8 @@ export {
     JoinKultImg3,
     JoinKultImg4,
 
-    NewLogo
+    NewLogo,
+
+    TodaysPic1,
+    TodaysPic2
 }
