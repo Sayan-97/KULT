@@ -2,7 +2,6 @@ import React, {useRef, useState} from 'react'
 import { NFTLogo } from '../../../images'
 import './TrendingNFTs.css'
 
-
 const TrendingNFTs = () => {
 
     const containerRef = useRef(null);
