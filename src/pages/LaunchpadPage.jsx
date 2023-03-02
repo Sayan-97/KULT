@@ -1,10 +1,11 @@
 import React from 'react'
-import LaunchPad from '../components/Launchpad/LaunchPad'
+import {Header} from '../components/Launchpad'
+
 
 const LaunchpadPage = () => {
   return (
     <>
-        <LaunchPad />
+      <Header />
     </>
   )
 }

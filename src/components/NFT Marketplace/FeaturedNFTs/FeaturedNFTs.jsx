@@ -1,23 +1,14 @@
-import React, {useRef} from 'react'
+import React from 'react'
 import './FeaturedNFTs.css'
 import { NFTLogo } from '../../../images';
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation } from "swiper";
+
+import "swiper/css";
+import "swiper/css/pagination";
+
 const FeaturedNFTs = () => {
-
-    const containerRef = useRef(null);
-
-    // For the Scroll Buttons
-    const handleScrollLeft = () => {
-        if (containerRef.current) {
-            containerRef.current.scrollLeft -= 400;
-        }
-    };
-
-    const handleScrollRight = () => {
-        if (containerRef.current) {
-            containerRef.current.scrollLeft += 400;
-        }
-    };
 
     const slides = [
         {
@@ -75,15 +66,22 @@ const FeaturedNFTs = () => {
             <div className="featuredNFTs__title">
                 <h1>Featured NFT's</h1>
                 <div className='head__buttons'>
-                    <div onClick={handleScrollLeft} className="left__nav"><i className="uil uil-angle-left"></i></div>
-                    <div onClick={handleScrollRight} className="right__nav"><i className="uil uil-angle-right"></i></div>
+                    <div className="left__nav"><i className="uil uil-angle-left"></i></div>
+                    <div className="right__nav"><i className="uil uil-angle-right"></i></div>
                 </div>
             </div>
 
-            <div className="featuredNFTs__container" ref={containerRef}>
+            <Swiper
+                className="featuredNFTs__container"
+                slidesPerView={5}
+                spaceBetween={40}
+                grabCursor={true}
+                modules={[Navigation]}
+                navigation={{ prevEl: '.left__nav', nextEl: '.right__nav' }}
+            >
                 {slides.map((slide, index) => {
                     return (
-                        <div key={index} className="featuredNFTs__content" >
+                        <SwiperSlide key={index} className="featuredNFTs__content" >
                             <img src={slide.imgSrc} alt="" />
                             <div className="featuredNFTs__details">
                                 <div className="g_top"></div>
@@ -94,10 +92,10 @@ const FeaturedNFTs = () => {
                                     <div className='featuredNFTs__tv'><span>Total Volume</span><p><img src={NFTLogo} alt="logo" />{slide.totalVol}</p></div>
                                 </div>
                             </div>
-                        </div>
+                        </SwiperSlide>
                     )
                 })}
-            </div>
+            </Swiper>
 
             <button className='secondary'>View More</button>
 

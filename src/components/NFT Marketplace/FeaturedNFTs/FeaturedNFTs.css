@@ -13,11 +13,10 @@
     width: 100%;
     display: flex;
     flex-wrap: nowrap;
-    /* justify-content: flex-start; */
     gap: 2.6rem;
     overflow-x: auto;
-    /* overflow-y: hidden; */
     scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
 
 .featuredNFTs__container::-webkit-scrollbar {

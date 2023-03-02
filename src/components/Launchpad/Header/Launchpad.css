@@ -48,16 +48,8 @@
     font-weight: 300;
 }
 
-.trending__container {
+.launchpad__container {
     width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-
-    gap: 2.6rem;
-    overflow-x: auto;
-
-    scroll-behavior: smooth;
-
 }
 
 .trending__container::-webkit-scrollbar {
