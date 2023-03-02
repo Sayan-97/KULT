@@ -11,13 +11,6 @@
 
 .popCollection__container {
     width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    /* justify-content: space-between; */
-    gap: 4.2rem;
-    overflow-x: auto;
-    /* overflow-y: hidden; */
-    scroll-behavior: smooth;
 }
 
 .popCollection__container::-webkit-scrollbar {
@@ -36,20 +29,22 @@
 .popCollection__images {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
 .popCollection__images div:nth-child(1) {
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
 }
 
 .popCollection__images div:nth-child(2) {
     width: 100%;
     display: flex;
-    /* justify-content: space-between; */
+    justify-content: space-around;
     gap: 10px;
 }
 
@@ -68,6 +63,7 @@
 }
 
 .popCollection__details {
+    margin-left: 4px;
     display: flex;
     justify-content: flex-start;
     align-items: center;
