@@ -12,7 +12,7 @@ const Navbar = () => {
     const [show, setShow] = useState(true);
     const [lastScrollTop, setLastScrollTop] = useState(0);
     const [navbarColor, setNavbarColor] = useState(false)
-
+    
     const handleScroll = () => {
         const currentScrollPos = window.pageYOffset;
         const navbar = document.querySelector("nav");
@@ -60,33 +60,34 @@ const Navbar = () => {
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    // transition={{ type: "spring", stiffness: 200 }}
+                // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/">Home</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    // transition={{ type: "spring", stiffness: 200 }}
+                // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/gamepedia">Gamepedia</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    // transition={{ type: "spring", stiffness: 200 }}
+                // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/launchpad">Launchpad</Link>
                 </motion.li>
 
                 <motion.li
                     whileTap={{ scale: 0.9 }}
-                    // transition={{ type: "spring", stiffness: 200 }}
+                // transition={{ type: "spring", stiffness: 200 }}
                 >
                     <Link className='nav__list' to="/nftmarketplace">NFT Marketplace</Link>
                 </motion.li>
 
-            </ul>
+            </ul> 
+
             <div className="nav__buttons">
                 <motion.button
                     initial={{ background: "var(--btn-grad)" }}
@@ -96,14 +97,24 @@ const Navbar = () => {
                     className='nav__button'
                 >
                     Create</motion.button>
+
+
                 <motion.button
                     whileHover={{ scale: 1.02 }}
                     whileTap={{ scale: 0.9 }}
                     className='nav__button-secondary'
-                >Log In</motion.button>
+                    
+                > LogIn
+                </motion.button>
+
+                
+
+                
+
             </div>
         </motion.nav>
     )
 }
 
 export default Navbar
+

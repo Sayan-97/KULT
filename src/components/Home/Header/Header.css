@@ -50,7 +50,7 @@
     border-radius: 50%;
     opacity: 0.6;
 
-    z-index: 1;
+    z-index: -1;
 }
 
 .gradient-2 {
@@ -67,5 +67,5 @@
     background: linear-gradient(180deg, #CF2AC0 0%, #FFD7FB 100%);
     opacity: 0.5;
     filter: blur(137px);
-    z-index: 1;
+    z-index: -1;
 }

@@ -52,6 +52,10 @@ body {
     z-index: -1;
 }
 
+a{
+    color: #fff;
+}
+
 main {
     position: relative;
     width: 100%;
@@ -74,7 +78,7 @@ section {
 
     position: relative;
 
-    padding: 0 9.375rem;
+    padding: 0 10%;
 
     display: flex;
     flex-direction: column;
@@ -101,9 +105,9 @@ h2{
 }
 
 h3{
-    font-size: 1.25em;
+    font-size: 1.25rem;
     font-weight: 600;
-    line-height: 30px;
+    /* line-height: 30px; */
     z-index: 10;
 }
 

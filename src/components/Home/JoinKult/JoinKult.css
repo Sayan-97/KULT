@@ -1,14 +1,17 @@
 .joinKult__steps{
     width: 100%;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     align-items: center;
+    justify-items: center;
+    gap: 20px;
 }
 
 .joinKult__step{
     position: relative;
-    width: 18rem;
-    height: 24rem;
+    width: 100%;
+    height: 100%;
+
     padding: 10px;
     background: #120F2F;
     border-radius: 16px;
@@ -19,8 +22,18 @@
     align-items: center;
 }
 
+.steps {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
 .joinKult__step img{
-    width: 60%;
+    width: 50%;
     z-index: 10;
 }
 

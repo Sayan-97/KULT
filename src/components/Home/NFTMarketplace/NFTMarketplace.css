@@ -30,23 +30,25 @@
 
 .nft__cardholder {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
+    justify-items: center;
     gap: 20px;
 }
 
 .nft__card {
-    width: 32%;
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .nft__card img {
+    max-width: 100%;
     width: 100%;
-    height: 100%;
+    height: 70%;
     border-radius: 16px 16px 0 0;
     object-fit: cover;
 }
@@ -54,13 +56,15 @@
 .nftcard__content {
     position: relative;
     width: 100%;
+    height: 30%;
+
     padding: 20px;
 
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 
-    gap: 14px;
+    gap: 10px;
 
     border-radius: 0 0 16px 16px;
     overflow: hidden;

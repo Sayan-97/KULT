@@ -2,11 +2,11 @@ import React from 'react'
 import { JoinKultImg1, JoinKultImg2, JoinKultImg3, JoinKultImg4 } from '../../../images'
 import './JoinKult.css'
 
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 
 const JoinKult = () => {
     return (
-        <motion.section 
+        <motion.section
             initial={{ y: '10', opacity: 0 }}
             whileInView={{
                 y: 0,
@@ -23,29 +23,37 @@ const JoinKult = () => {
                 <div className="joinKult__step">
                     <img src={JoinKultImg1} />
                     <div className='step__grad'></div>
-                    <h2>Purchase</h2>
-                    <span>Purchase KULT Coin today and become the part of the biggest growing gaming platform.</span>
+                    <div className='steps'>
+                        <h2>Purchase</h2>
+                        <span>Purchase KULT Coin today and become the part of the biggest growing gaming platform.</span>
+                    </div>
                 </div>
 
                 <div className="joinKult__step">
                     <img src={JoinKultImg2} />
                     <div className='step__grad'></div>
-                    <h2>Launch</h2>
-                    <span>Follow the steps mentioned in the guidelines and launch your project today and join the revolution with kult games. The Future</span>
+                    <div className='steps'>
+                        <h2>Launch</h2>
+                        <span>Follow the steps mentioned in the guidelines and launch your project today and join the revolution with kult games. The Future</span>
+                    </div>
                 </div>
 
                 <div className="joinKult__step">
                     <img src={JoinKultImg3} />
                     <div className='step__grad'></div>
-                    <h2>Complete KYC</h2>
-                    <span>In order to become an official member it is imperative that projects complete their KYC to help us get to know them better. <br />Complete KYC</span>
+                    <div className="steps">
+                        <h2>Complete KYC</h2>
+                        <span>In order to become an official member it is imperative that projects complete their KYC to help us get to know them better. <br />Complete KYC</span>
+                    </div>
                 </div>
 
                 <div className="joinKult__step">
                     <img src={JoinKultImg4} />
                     <div className='step__grad'></div>
-                    <h2>Share</h2>
-                    <span>Once you have completed all the steps, share your profile with others and encourage them to follow you!</span>
+                    <div className="steps">
+                        <h2>Share</h2>
+                        <span>Once you have completed all the steps, share your profile with others and encourage them to follow you!</span>
+                    </div>
                 </div>
             </div>
         </motion.section>

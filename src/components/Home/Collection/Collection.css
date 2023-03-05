@@ -1,12 +1,11 @@
 .collections{
     margin-top: 40px;
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-
-    gap: 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
 }
 
 .collection__profile{

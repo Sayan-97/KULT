@@ -1,13 +1,11 @@
 .team__members {
     width: 100%;
     margin-top: 40px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    /* gap: 3rem; */
-    /* gap: 5%; */
-    gap: 5em;
+    justify-items: center;
+    gap: 80px;
 }
 
 .team__member {

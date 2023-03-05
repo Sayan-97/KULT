@@ -1,33 +1,34 @@
 .artist__cardholder {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
     align-items: center;
+    gap: 20px;
 }
 
 .artist__card {
-    height: 23rem;
+    width: 100%;
+    height: 100%;
     position: relative;
-    
+    gap: 20px;
 }
 
 .artist__card img:nth-child(1){
+    max-width: 100%;
     width: 100%;
     height: 100%;
     border-radius: 16px;
 }
 
 .artist{
-    width: 75px;
-    height: 75px;
-
-    display: flex;
-    align-items: center;
+    width: 32%;
+    height: 25%;
 
     position: absolute;
     bottom: 20%;
-    left: 35%;
+    left: 50%;
+    transform: translateX(-50%);
 
     border: 2px solid #fff;
     border-radius: 50%;
