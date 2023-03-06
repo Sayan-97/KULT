@@ -98,7 +98,7 @@ const Launchpad = () => {
         })}
       </Swiper>
 
-      <button className='secondary'>View More</button>
+      <button className='view_btn'>View More</button>
 
     </section>
   )

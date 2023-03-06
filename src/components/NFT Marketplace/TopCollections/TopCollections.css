@@ -1,0 +1,63 @@
+.topCollections__header {
+    width: 100%;
+}
+
+.topCollections__header h1 {
+    text-align: start;
+}
+
+.topCollections__collections {
+    width: 100%;
+
+    display: grid;
+    /* grid-template-rows: repeat(3, 1fr); */
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.topCollections__content {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-img{
+    width: 30%;
+    background: url('../../../images/Ellipse\ 31.svg');
+    background-size: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topCollections__content img {
+    border: 2px solid transparent;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.topCollections__border {
+    position: absolute;
+    width: 31%;
+    height: 104%;
+    background: var(--btn-grad);
+    border-radius: 50%;
+    z-index: -1;
+    top: 50%;
+    left: 27%;
+    transform: translate(-50%, -50%);
+}
+
+.topCollections__content-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topCollections__content-details span {
+    color: #5416E9;
+}

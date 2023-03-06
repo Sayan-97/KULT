@@ -162,3 +162,14 @@
     height: 3.2rem;
     align-self: flex-end;
 }
+
+.view_btn {
+    background: rgba(20, 23, 45, 0.25);
+    border: solid 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-image-slice: 10;
+    border-image-repeat: round;
+    border-image-width: 10px;
+    border-image-source: var(--btn-grad);
+}
