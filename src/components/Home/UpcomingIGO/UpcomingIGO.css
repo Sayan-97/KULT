@@ -43,8 +43,8 @@
     align-items: center;
     margin-top: 5%;
 
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    padding: 5px;
 
     background: linear-gradient(93.03deg, rgba(255, 255, 255, 0.16) 1.38%, rgba(255, 255, 255, 0.0672) 102.75%);
     border-radius: 4px;
